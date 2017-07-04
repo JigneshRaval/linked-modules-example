@@ -2,7 +2,8 @@
 	"name": "MyModule-B",
 	"version": "1.0.0",
 	"scripts": {
-		"start": "webpack -w",
+		"start": "node server.js",
+		"webpack" : "webpack -w",
 		"start:prod": "webpack -p"
 	},
 	"dependencies": {

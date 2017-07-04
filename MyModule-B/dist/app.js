@@ -18,7 +18,7 @@ return webpackJsonp([1],{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bootstrap_growl_component__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bootstrap_growl_service__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(29);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -124,7 +124,7 @@ var DialogAnchorDirective = (function () {
         __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */]({
             selector: '[dialogAnchor]'
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewContainerRef */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ViewContainerRef */],
             __WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ComponentFactoryResolver */]])
     ], DialogAnchorDirective);
     return DialogAnchorDirective;
@@ -204,13 +204,42 @@ var DynamicComponent2 = (function () {
 
 /***/ }),
 
-/***/ 137:
+/***/ 126:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var MyComponent = (function () {
+    function MyComponent() {
+    }
+    MyComponent = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'my-component',
+            template: "\n    <div style=\"border: 1px solid red;text-align:center;\">\n        <h1>My Linked Component Example</h1>\n    </div>\n    "
+        })
+    ], MyComponent);
+    return MyComponent;
+}());
+
+//# sourceMappingURL=mycomponent.component.js.map
+
+/***/ }),
+
+/***/ 138:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_module__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_module__ = __webpack_require__(141);
 
 
 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */]().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_app_module__["a" /* AppModule */]);
@@ -218,26 +247,27 @@ __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformB
 
 /***/ }),
 
-/***/ 140:
+/***/ 141:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__(141);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__example_directive_mouse_events_mousewheel_directive__ = __webpack_require__(419);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__example_directive_mouse_events_mousewheel_component__ = __webpack_require__(420);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__example_directive_mouse_events_mousewheel_directive__ = __webpack_require__(420);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__example_directive_mouse_events_mousewheel_component__ = __webpack_require__(421);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__example_dynamic_component_hello_world_component__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__example_dynamic_component_world_hello_component__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__example_dynamic_component_dynamic_component__ = __webpack_require__(421);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__example_dynamic_component_dynamic_component_main__ = __webpack_require__(422);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__ = __webpack_require__(423);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__example_dynamic_component_dynamic_component__ = __webpack_require__(422);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__example_dynamic_component_dynamic_component_main__ = __webpack_require__(423);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__ = __webpack_require__(424);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__dynamic_component2_dynamic_component2_service__ = __webpack_require__(124);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__example_growl_notification_bootstrap_growl_module__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__dynamic_dialog_component_dialog_anchor_directive__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__dynamic_dialog_component_dialog_component__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_MyModule_A__ = __webpack_require__(481);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_MyModule_A__ = __webpack_require__(425);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__nsalaun_ng_logger__ = __webpack_require__(485);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -271,6 +301,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 // Example of Linked Component using `npm link MyModule-A`
 
+
 var AppModule = (function () {
     function AppModule() {
     }
@@ -280,7 +311,8 @@ var AppModule = (function () {
                 // Imports Metadata tells the angular list of other modules used by this module.
                 __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_11__example_growl_notification_bootstrap_growl_module__["a" /* BootstrapGrowlModule */],
-                __WEBPACK_IMPORTED_MODULE_14_MyModule_A__["a" /* MyMainModule */]
+                __WEBPACK_IMPORTED_MODULE_14_MyModule_A__["a" /* MyMainModule */],
+                __WEBPACK_IMPORTED_MODULE_15__nsalaun_ng_logger__["c" /* NgLoggerModule */].forRoot(__WEBPACK_IMPORTED_MODULE_15__nsalaun_ng_logger__["a" /* Level */].LOG)
             ],
             declarations: [
                 // Declaration Metadata lists the components, directives , services etc that are part of this module.
@@ -309,15 +341,16 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 141:
+/***/ 142:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__example_growl_notification_index__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__example_growl_notification_index__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dynamic_dialog_component_dialog_component__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dynamic_dialog_component_dialog_anchor_directive__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__nsalaun_ng_logger__ = __webpack_require__(485);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -331,11 +364,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+// Example of linked "ng-logger" example
+
 var AppComponent = (function () {
-    function AppComponent(bootstrapGrowlService) {
+    function AppComponent(bootstrapGrowlService, logger) {
         this.bootstrapGrowlService = bootstrapGrowlService;
-        //service.setRootViewContainerRef(viewContainerRef)
-        //service.addDynamicComponent()
+        this.logger = logger;
+        this.logger.log('Hello !', "It's working :)");
     }
     AppComponent.prototype.openDialogBox = function () {
         this.dialogAnchor.createDialog(__WEBPACK_IMPORTED_MODULE_2__dynamic_dialog_component_dialog_component__["a" /* DialogComponent */]);
@@ -347,7 +382,7 @@ var AppComponent = (function () {
         this.bootstrapGrowlService.addAlert("any custom message", __WEBPACK_IMPORTED_MODULE_1__example_growl_notification_index__["a" /* BootstrapAlertTypes */].DANGER, false);
     };
     __decorate([
-        __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ViewChild */](__WEBPACK_IMPORTED_MODULE_3__dynamic_dialog_component_dialog_anchor_directive__["a" /* DialogAnchorDirective */]),
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */](__WEBPACK_IMPORTED_MODULE_3__dynamic_dialog_component_dialog_anchor_directive__["a" /* DialogAnchorDirective */]),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_3__dynamic_dialog_component_dialog_anchor_directive__["a" /* DialogAnchorDirective */])
     ], AppComponent.prototype, "dialogAnchor", void 0);
     AppComponent = __decorate([
@@ -357,7 +392,7 @@ var AppComponent = (function () {
             styleUrls: [],
             entryComponents: [__WEBPACK_IMPORTED_MODULE_2__dynamic_dialog_component_dialog_component__["a" /* DialogComponent */]]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__example_growl_notification_index__["b" /* BootstrapGrowlService */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__example_growl_notification_index__["b" /* BootstrapGrowlService */], __WEBPACK_IMPORTED_MODULE_4__nsalaun_ng_logger__["b" /* Logger */]])
     ], AppComponent);
     return AppComponent;
 }());
@@ -366,7 +401,7 @@ var AppComponent = (function () {
 
 /***/ }),
 
-/***/ 142:
+/***/ 143:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -374,7 +409,7 @@ var AppComponent = (function () {
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__bootstrap_growl_alert_types_enum__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bootstrap_growl_component__ = __webpack_require__(96);
 /* unused harmony reexport BootstrapGrowlComponent */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bootstrap_growl_model__ = __webpack_require__(418);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bootstrap_growl_model__ = __webpack_require__(419);
 /* unused harmony reexport BootstrapAlert */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__bootstrap_growl_module__ = __webpack_require__(121);
 /* unused harmony reexport BootstrapGrowlModule */
@@ -389,7 +424,7 @@ var AppComponent = (function () {
 
 /***/ }),
 
-/***/ 418:
+/***/ 419:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -404,7 +439,7 @@ var BootstrapAlert = (function () {
 
 /***/ }),
 
-/***/ 419:
+/***/ 420:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -455,11 +490,11 @@ var MouseWheelDirective = (function () {
         }
     };
     __decorate([
-        __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Output */](),
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */](),
         __metadata("design:type", Object)
     ], MouseWheelDirective.prototype, "mouseWheelUp", void 0);
     __decorate([
-        __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Output */](),
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */](),
         __metadata("design:type", Object)
     ], MouseWheelDirective.prototype, "mouseWheelDown", void 0);
     __decorate([
@@ -492,7 +527,7 @@ var MouseWheelDirective = (function () {
 
 /***/ }),
 
-/***/ 420:
+/***/ 421:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -531,7 +566,7 @@ var MouseWheelDirectiveExampleComponent = (function () {
 
 /***/ }),
 
-/***/ 421:
+/***/ 422:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -564,9 +599,9 @@ var DynamicComponent = (function () {
             }
             // Inputs need to be in the following format to be resolved properly
             var inputProviders = Object.keys(data.inputs).map(function (inputName) { return { provide: inputName, useValue: data.inputs[inputName] }; });
-            var resolvedInputs = __WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* ReflectiveInjector */].resolve(inputProviders);
+            var resolvedInputs = __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* ReflectiveInjector */].resolve(inputProviders);
             // We create an injector out of the data we want to pass down and this components injector
-            var injector = __WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* ReflectiveInjector */].fromResolvedProviders(resolvedInputs, this.dynamicComponentContainer.parentInjector);
+            var injector = __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* ReflectiveInjector */].fromResolvedProviders(resolvedInputs, this.dynamicComponentContainer.parentInjector);
             // We create a factory out of the component we want to create
             var factory = this.resolver.resolveComponentFactory(data.component);
             // We create the component using the factory and the injector
@@ -583,8 +618,8 @@ var DynamicComponent = (function () {
         configurable: true
     });
     __decorate([
-        __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* ViewChild */]('dynamicComponentContainer', { read: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewContainerRef */] }),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewContainerRef */])
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */]('dynamicComponentContainer', { read: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ViewContainerRef */] }),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ViewContainerRef */])
     ], DynamicComponent.prototype, "dynamicComponentContainer", void 0);
     __decorate([
         __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */](),
@@ -606,7 +641,7 @@ var DynamicComponent = (function () {
 
 /***/ }),
 
-/***/ 422:
+/***/ 423:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -655,7 +690,7 @@ var MainDynamicComponent = (function () {
 
 /***/ }),
 
-/***/ 423:
+/***/ 424:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -685,7 +720,7 @@ var MainDynamicComponent2 = (function () {
             selector: 'dynamic-component-main2',
             template: "\n    <div>\n      <h2>Dynamic components Example 2! 555</h2>\n    </div>\n  ",
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__dynamic_component2_service__["a" /* DynamicComp2Service */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewContainerRef */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__dynamic_component2_service__["a" /* DynamicComp2Service */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ViewContainerRef */]])
     ], MainDynamicComponent2);
     return MainDynamicComponent2;
 }());
@@ -695,42 +730,13 @@ var MainDynamicComponent2 = (function () {
 
 /***/ }),
 
-/***/ 480:
+/***/ 425:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-var MyComponent = (function () {
-    function MyComponent() {
-    }
-    MyComponent = __decorate([
-        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
-            selector: 'my-component',
-            template: "\n    <div style=\"border: 1px solid red;text-align:center;\">\n        <h1>My Linked Component Example</h1>\n    </div>\n    "
-        })
-    ], MyComponent);
-    return MyComponent;
-}());
-
-//# sourceMappingURL=mycomponent.component.js.map
-
-/***/ }),
-
-/***/ 481:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_index__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_index__ = __webpack_require__(426);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_mycomponent_component__ = __webpack_require__(480);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_mycomponent_component__ = __webpack_require__(126);
 /* unused harmony reexport MyComponent */
 /**
  * @license
@@ -749,14 +755,14 @@ var MyComponent = (function () {
 
 /***/ }),
 
-/***/ 482:
+/***/ 426:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyMainModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mycomponent_component__ = __webpack_require__(480);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mycomponent_component__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(29);
 /**
  * @license
  * Copyright Noémi Salaün All Rights Reserved.
@@ -797,6 +803,281 @@ var MyMainModule = (function () {
 }());
 
 //# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 483:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Level; });
+/**
+ * @license
+ * Copyright Noémi Salaün All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://github.com/noemi-salaun/ng-logger/blob/master/LICENSE
+ */
+/**
+ * Created by Noémi Salaün on 09/17/2016.
+ */
+/**
+ * The available log levels.
+ */
+/**
+ * @license
+ * Copyright Noémi Salaün All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://github.com/noemi-salaun/ng-logger/blob/master/LICENSE
+ */ var Level;
+(function (Level) {
+    Level[Level["OFF"] = 0] = "OFF";
+    Level[Level["ERROR"] = 1] = "ERROR";
+    Level[Level["WARN"] = 2] = "WARN";
+    Level[Level["INFO"] = 3] = "INFO";
+    Level[Level["DEBUG"] = 4] = "DEBUG";
+    Level[Level["LOG"] = 5] = "LOG";
+})(Level || (Level = {}));
+//# sourceMappingURL=level.enum.js.map
+
+/***/ }),
+
+/***/ 484:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LOGGER_LEVEL; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return Logger; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__level_enum__ = __webpack_require__(483);
+/**
+ * @license
+ * Copyright Noémi Salaün All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://github.com/noemi-salaun/ng-logger/blob/master/LICENSE
+ */
+
+
+/**
+ * Created by Noémi Salaün on 09/17/2016.
+ */
+/**
+ * The token to provide the log {@link Level}.
+ */
+var LOGGER_LEVEL = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* OpaqueToken */]('LoggerLevel');
+/**
+ * A logger service that provide the same functions as {@link console}.
+ * The logger is binded to the console, so the Web Console shows the correct file and line number of the original call.
+ */
+var Logger = (function () {
+    function Logger(level) {
+        this._level = level;
+        // console.log
+        if (this._level >= __WEBPACK_IMPORTED_MODULE_1__level_enum__["a" /* Level */].LOG && console && console.log) {
+            console.log("Testing 123");
+            this.log = console.log.bind(console);
+        }
+        else {
+            this.log = function () {
+            };
+        }
+        // console.debug
+        if (this._level >= __WEBPACK_IMPORTED_MODULE_1__level_enum__["a" /* Level */].DEBUG && console && console.debug) {
+            this.debug = console.debug.bind(console);
+        }
+        else {
+            this.debug = function () {
+            };
+        }
+        // console.info
+        if (this._level >= __WEBPACK_IMPORTED_MODULE_1__level_enum__["a" /* Level */].INFO && console && console.info) {
+            this.info = console.info.bind(console);
+        }
+        else {
+            this.info = function () {
+            };
+        }
+        // console.warn
+        if (this._level >= __WEBPACK_IMPORTED_MODULE_1__level_enum__["a" /* Level */].WARN && console && console.warn) {
+            this.warn = console.warn.bind(console);
+        }
+        else {
+            this.warn = function () {
+            };
+        }
+        // console.error
+        if (this._level >= __WEBPACK_IMPORTED_MODULE_1__level_enum__["a" /* Level */].ERROR && console && console.error) {
+            this.error = console.error.bind(console);
+        }
+        else {
+            this.error = function () {
+            };
+        }
+        // console.group
+        if (this._level > __WEBPACK_IMPORTED_MODULE_1__level_enum__["a" /* Level */].OFF && console && console.group) {
+            this.group = console.group.bind(console);
+        }
+        else {
+            this.group = function () {
+            };
+        }
+        // console.groupCollapsed
+        if (this._level > __WEBPACK_IMPORTED_MODULE_1__level_enum__["a" /* Level */].OFF && console && console.groupCollapsed) {
+            this.groupCollapsed = console.groupCollapsed.bind(console);
+        }
+        else {
+            this.groupCollapsed = function () {
+            };
+        }
+        // console.groupEnd
+        if (this._level > __WEBPACK_IMPORTED_MODULE_1__level_enum__["a" /* Level */].OFF && console && console.groupEnd) {
+            this.groupEnd = console.groupEnd.bind(console);
+        }
+        else {
+            this.groupEnd = function () {
+            };
+        }
+        // console.time
+        if (this._level >= __WEBPACK_IMPORTED_MODULE_1__level_enum__["a" /* Level */].DEBUG && console && console.time) {
+            this.time = console.time.bind(console);
+        }
+        else {
+            this.time = function () {
+            };
+        }
+        // console.timeEnd
+        if (this._level >= __WEBPACK_IMPORTED_MODULE_1__level_enum__["a" /* Level */].DEBUG && console && console.timeEnd) {
+            this.timeEnd = console.timeEnd.bind(console);
+        }
+        else {
+            this.timeEnd = function () {
+            };
+        }
+    }
+    Object.defineProperty(Logger.prototype, "level", {
+        /**
+         * Returns the log level.
+         */
+        get: function () {
+            return this._level;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return Logger;
+}());
+
+Logger.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+];
+/** @nocollapse */
+Logger.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__level_enum__["a" /* Level */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Inject */], args: [LOGGER_LEVEL,] },] },
+]; };
+//# sourceMappingURL=logger.service.js.map
+
+/***/ }),
+
+/***/ 485:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_index__ = __webpack_require__(486);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["b"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["c"]; });
+/**
+ * @license
+ * Copyright Noémi Salaün All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://github.com/noemi-salaun/ng-logger/blob/master/LICENSE
+ */
+/**
+ * Created by Noémi Salaün on 17/09/2016.
+ */
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 486:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ng_logger_module__ = __webpack_require__(487);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__ng_logger_module__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__level_enum__ = __webpack_require__(483);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__level_enum__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__logger_service__ = __webpack_require__(484);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__logger_service__["b"]; });
+/* unused harmony reexport LOGGER_LEVEL */
+/**
+ * @license
+ * Copyright Noémi Salaün All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://github.com/noemi-salaun/ng-logger/blob/master/LICENSE
+ */
+/**
+ * Created by Noémi Salaün on 10/11/2016.
+ */
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 487:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgLoggerModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__level_enum__ = __webpack_require__(483);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__logger_service__ = __webpack_require__(484);
+/**
+ * @license
+ * Copyright Noémi Salaün All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://github.com/noemi-salaun/ng-logger/blob/master/LICENSE
+ */
+
+
+
+/**
+ * Created by Noémi Salaün on 09/17/2016.
+ */
+var NgLoggerModule = (function () {
+    function NgLoggerModule() {
+    }
+    /**
+     * Provide the {@link Logger} with the given log {@link Level}.
+     * @param level The log level.
+     */
+    NgLoggerModule.forRoot = function (level) {
+        if (level === void 0) { level = __WEBPACK_IMPORTED_MODULE_1__level_enum__["a" /* Level */].LOG; }
+        return {
+            ngModule: NgLoggerModule,
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_2__logger_service__["b" /* Logger */],
+                { provide: __WEBPACK_IMPORTED_MODULE_2__logger_service__["a" /* LOGGER_LEVEL */], useValue: level }
+            ]
+        };
+    };
+    return NgLoggerModule;
+}());
+
+NgLoggerModule.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */] },
+];
+/** @nocollapse */
+NgLoggerModule.ctorParameters = function () { return []; };
+//# sourceMappingURL=ng-logger.module.js.map
 
 /***/ }),
 
@@ -1054,6 +1335,6 @@ var BootstrapGrowlComponent = (function () {
 
 /***/ })
 
-},[137]);
+},[138]);
 });
 //# sourceMappingURL=app.js.map

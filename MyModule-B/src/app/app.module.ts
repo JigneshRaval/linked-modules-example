@@ -32,12 +32,15 @@ import { DialogComponent } from "./dynamic-dialog-component/dialog.component";
 // Example of Linked Component using `npm link MyModule-A`
 import { MyMainModule } from 'MyModule-A';
 
+import { NgLoggerModule, Level } from '@nsalaun/ng-logger';
+
 @NgModule({
     imports: [
         // Imports Metadata tells the angular list of other modules used by this module.
         BrowserModule,
         BootstrapGrowlModule,
-        MyMainModule
+        MyMainModule,
+        NgLoggerModule.forRoot(Level.LOG)
     ],
     declarations: [
         // Declaration Metadata lists the components, directives , services etc that are part of this module.

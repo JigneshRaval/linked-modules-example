@@ -4,6 +4,9 @@ import { BootstrapGrowlService, BootstrapAlertTypes } from './example-growl-noti
 import { DialogComponent } from './dynamic-dialog-component/dialog.component';
 import { DialogAnchorDirective } from './dynamic-dialog-component/dialog-anchor.directive';
 
+// Example of linked "ng-logger" example
+import { Logger } from '@nsalaun/ng-logger';
+
 // Example of Linked Component using `npm link MyModule-A`
 import { MyComponent } from 'MyModule-A';
 
@@ -31,9 +34,10 @@ import { MyComponent } from 'MyModule-A';
 	entryComponents: [DialogComponent]
 })
 export class AppComponent {
-	constructor(private bootstrapGrowlService: BootstrapGrowlService) {
-		//service.setRootViewContainerRef(viewContainerRef)
-		//service.addDynamicComponent()
+	constructor(private bootstrapGrowlService: BootstrapGrowlService, private logger: Logger) {
+
+		this.logger.log('Hello !', "It's working :)");
+
 	}
 
 	@ViewChild(DialogAnchorDirective) dialogAnchor: DialogAnchorDirective;
