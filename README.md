@@ -12,6 +12,10 @@ Referance : https://github.com/angular/angular-cli/blob/master/docs/documentatio
 * Typescript 2.4.1
 * Webpack 3.0.0
 
+## Node and NPM version
+* MPM version 3.10.10
+* Node version 7.3.0
+
 ## Other NPM Packages
 * core-js, reflect-metadata, rxjs, zone.js
 * awesome-typescript-loader
@@ -55,7 +59,7 @@ It will link your module A, to global npm directory `C:\Users\<yourname>\AppData
 /tsconfig-build.json
 ```
 
-```json
+```javascript
 // package.json
 //=====================
 
@@ -90,7 +94,7 @@ It will link your module A, to global npm directory `C:\Users\<yourname>\AppData
 
 ```
 
-```json
+```javascript
 // tsconfig.json
 //=====================
 
@@ -128,7 +132,7 @@ It will link your module A, to global npm directory `C:\Users\<yourname>\AppData
 }
 ```
 
-```json
+```javascript
 // tsconfig-build.json
 //=====================
 
@@ -167,7 +171,7 @@ It will link your module A, to global npm directory `C:\Users\<yourname>\AppData
 
 # Module-B
 
-```json
+```javascript
 // package.json
 //=====================
 
@@ -200,7 +204,7 @@ It will link your module A, to global npm directory `C:\Users\<yourname>\AppData
 
 ```
 
-```json
+```javascript
 // tsconfig.json
 //=====================
 
@@ -238,7 +242,7 @@ It will link your module A, to global npm directory `C:\Users\<yourname>\AppData
 }
 ```
 
-```json
+```javascript
 // webpack.config.js
 //=====================
 
@@ -307,7 +311,7 @@ module.exports = {
 
 As webpack 2 doesn't load linked module properly so for that we need to mention following lines in `webpack.config.js` file
 
-```json
+```javascript
 resolve: {
     // This will resolve module path when using "npm link"
     alias: { "@angular": path.join(__dirname, "node_modules/@angular") }
