@@ -5,6 +5,10 @@ Referance : https://github.com/angular/angular-cli/blob/master/docs/documentatio
 
 # Linked libraries using Angular 4, Typescript and Webpack 2
 
+* Angular 4.2.5
+* Typescript 2.4.1
+* Webpack 3.0.0
+
 While working on a library, it is common to use [npm link](https://docs.npmjs.com/cli/link) to
 avoid reinstalling the library on every build.
 
@@ -18,12 +22,14 @@ for example we have two applications
 1) MyModule-A
 2) MyModule-B ( Main App )
 
-If I want to link MyModule-A inside MyModule-B, the first fo inside MyModule-A folder and run command : `npm link`
-this will link your module A, to global npm directory `C:\Users\<yourname>\AppData\Roaming\npm\node_modules\
+If I want to link MyModule-A inside MyModule-B, then:
 
-then go inside Module B in which you want to use your linked module, and run open command prompt from that directory and run `npm link MyModule-A`
+1. First go inside MyModule-A folder and run command : `npm link`
+It will link your module A, to global npm directory `C:\Users\<yourname>\AppData\Roaming\npm\node_modules\
 
-Now you are able to use all the functions/code of Module A, inside Module B.
+2. Go inside Module B in which you want to use your linked module ( Module A ), and open command prompt from that directory and run `npm link MyModule-A`
+
+3. Now you are able to use all the functions/code of Module A, inside Module B.
 
 # Module-A
 
