@@ -1,3 +1,9 @@
+*.js
+*.d.ts
+*.js.map
+*.metadata.json
+*.ngfactory.ts
+
 # MyModule-A
 /MyModule-A/*.js
 /MyModule-A/*.d.ts
@@ -15,8 +21,7 @@
 /MyModule-B/src/**/*.d.ts
 /MyModule-B/src/**/*.js.map
 
-*.metadata.json
-*.ngfactory.ts
+
 
 # Logs
 logs

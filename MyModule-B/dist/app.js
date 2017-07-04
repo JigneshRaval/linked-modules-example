@@ -2486,6 +2486,15 @@ var WorldHelloComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bootstrap_growl_alert_types_enum__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(501);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 
 
@@ -2561,11 +2570,10 @@ var BootstrapGrowlService = (function () {
         alertHolder.splice(id, 1);
         alerts.next(alertHolder);
     };
-    BootstrapGrowlService.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
-    ];
-    /** @nocollapse */
-    BootstrapGrowlService.ctorParameters = function () { return []; };
+    BootstrapGrowlService = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */](),
+        __metadata("design:paramtypes", [])
+    ], BootstrapGrowlService);
     return BootstrapGrowlService;
 }());
 
@@ -3986,6 +3994,15 @@ var BootstrapAlertTypes;
 // ngx-bootstrap-growl
 // REF : https://github.com/mbenzenhoefer/ngx-bootstrap-growl
 //=====================================================================
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 
 var BootstrapGrowlComponent = (function () {
@@ -4005,20 +4022,21 @@ var BootstrapGrowlComponent = (function () {
             this.growlService.removeAlert(alert);
         }
     };
-    BootstrapGrowlComponent.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                    selector: 'bootstrap-growl',
-                    template: "\n    <div *ngFor=\"let alert of alerts\">\n        <div class=\"alert alert-{{alert.type}}\" [ngClass]=\"{'alert-dismissible': alert.dismissable}\" role=\"alert\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"alert\" (click)=\"closeAlert(alert)\" *ngIf=\"alert.dismissable\">\n            <span aria-hidden=\"true\">&times;</span>\n          </button>\n          <span [innerHtml]=\"alert.message\"></span>\n        </div>\n    </div>"
-                },] },
-    ];
-    /** @nocollapse */
-    BootstrapGrowlComponent.ctorParameters = function () { return [
-        { type: __WEBPACK_IMPORTED_MODULE_1__bootstrap_growl_service__["a" /* BootstrapGrowlService */], },
-    ]; };
-    BootstrapGrowlComponent.propDecorators = {
-        'alertCount': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'autoClose': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    };
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */](),
+        __metadata("design:type", Number)
+    ], BootstrapGrowlComponent.prototype, "alertCount", void 0);
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */](),
+        __metadata("design:type", Number)
+    ], BootstrapGrowlComponent.prototype, "autoClose", void 0);
+    BootstrapGrowlComponent = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'bootstrap-growl',
+            template: "\n    <div *ngFor=\"let alert of alerts\">\n        <div class=\"alert alert-{{alert.type}}\" [ngClass]=\"{'alert-dismissible': alert.dismissable}\" role=\"alert\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"alert\" (click)=\"closeAlert(alert)\" *ngIf=\"alert.dismissable\">\n            <span aria-hidden=\"true\">&times;</span>\n          </button>\n          <span [innerHtml]=\"alert.message\"></span>\n        </div>\n    </div>"
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__bootstrap_growl_service__["a" /* BootstrapGrowlService */]])
+    ], BootstrapGrowlComponent);
     return BootstrapGrowlComponent;
 }());
 
@@ -21448,6 +21466,12 @@ var BootstrapAlert = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bootstrap_growl_component__ = __webpack_require__(168);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bootstrap_growl_service__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(45);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
 
 
 
@@ -21455,24 +21479,22 @@ var BootstrapAlert = (function () {
 var BootstrapGrowlModule = (function () {
     function BootstrapGrowlModule() {
     }
-    BootstrapGrowlModule.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */], args: [{
-                    imports: [
-                        __WEBPACK_IMPORTED_MODULE_3__angular_common__["a" /* CommonModule */]
-                    ],
-                    declarations: [
-                        __WEBPACK_IMPORTED_MODULE_1__bootstrap_growl_component__["a" /* BootstrapGrowlComponent */]
-                    ],
-                    providers: [
-                        __WEBPACK_IMPORTED_MODULE_2__bootstrap_growl_service__["a" /* BootstrapGrowlService */]
-                    ],
-                    exports: [
-                        __WEBPACK_IMPORTED_MODULE_1__bootstrap_growl_component__["a" /* BootstrapGrowlComponent */]
-                    ]
-                },] },
-    ];
-    /** @nocollapse */
-    BootstrapGrowlModule.ctorParameters = function () { return []; };
+    BootstrapGrowlModule = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */]({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__angular_common__["a" /* CommonModule */]
+            ],
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_1__bootstrap_growl_component__["a" /* BootstrapGrowlComponent */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_2__bootstrap_growl_service__["a" /* BootstrapGrowlService */]
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_1__bootstrap_growl_component__["a" /* BootstrapGrowlComponent */]
+            ]
+        })
+    ], BootstrapGrowlModule);
     return BootstrapGrowlModule;
 }());
 
@@ -21541,18 +21563,22 @@ var BootstrapGrowlModule = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
 
 var MyComponent = (function () {
     function MyComponent() {
     }
-    MyComponent.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                    selector: 'my-component',
-                    template: "\n    <div style=\"border: 1px solid red;text-align:center;\">\n        <h1>My Linked Component Example</h1>\n    </div>\n    "
-                },] },
-    ];
-    /** @nocollapse */
-    MyComponent.ctorParameters = function () { return []; };
+    MyComponent = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'my-component',
+            template: "\n    <div style=\"border: 1px solid red;text-align:center;\">\n        <h1>My Linked Component Example</h1>\n    </div>\n    "
+        })
+    ], MyComponent);
     return MyComponent;
 }());
 
@@ -21564,9 +21590,15 @@ var MyComponent = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyMainModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mycomponent_component__ = __webpack_require__(837);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mycomponent_component__ = __webpack_require__(837);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
 /**
  * @license
  * Copyright Noémi Salaün All Rights Reserved.
@@ -21583,22 +21615,20 @@ var MyComponent = (function () {
 var MyMainModule = (function () {
     function MyMainModule() {
     }
-    MyMainModule.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */], args: [{
-                    imports: [
-                        __WEBPACK_IMPORTED_MODULE_2__angular_common__["a" /* CommonModule */]
-                    ],
-                    declarations: [
-                        __WEBPACK_IMPORTED_MODULE_1__mycomponent_component__["a" /* MyComponent */]
-                    ],
-                    exports: [
-                        __WEBPACK_IMPORTED_MODULE_1__mycomponent_component__["a" /* MyComponent */]
-                    ],
-                    schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
-                },] },
-    ];
-    /** @nocollapse */
-    MyMainModule.ctorParameters = function () { return []; };
+    MyMainModule = __decorate([
+        __WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */]({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_common__["a" /* CommonModule */]
+            ],
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__mycomponent_component__["a" /* MyComponent */]
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__mycomponent_component__["a" /* MyComponent */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_1__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], MyMainModule);
     return MyMainModule;
 }());
 

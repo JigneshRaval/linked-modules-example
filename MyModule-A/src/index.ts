@@ -8,10 +8,9 @@
 /**
  * Created by Noémi Salaün on 10/11/2016.
  */
-
+import { CommonModule } from '@angular/common';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 import { MyComponent } from './mycomponent.component';
-import { CommonModule } from '@angular/common';
 
 @NgModule({
     imports: [
