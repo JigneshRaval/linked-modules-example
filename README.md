@@ -5,9 +5,16 @@ Referance : https://github.com/angular/angular-cli/blob/master/docs/documentatio
 
 # Linked libraries using Angular 4, Typescript and Webpack 2
 
+> This project has been setup using manual process using following npm packages.
+
 * Angular 4.2.5
+	- "@angular/common", "@angular/compiler", "@angular/core", "@angular/platform-browser", "@angular/platform-browser-dynamic", "@angular/compiler-cli"
 * Typescript 2.4.1
 * Webpack 3.0.0
+
+## Other NPM Packages
+* core-js, reflect-metadata, rxjs, zone.js
+* awesome-typescript-loader
 
 While working on a library, it is common to use [npm link](https://docs.npmjs.com/cli/link) to
 avoid reinstalling the library on every build.
@@ -48,7 +55,7 @@ It will link your module A, to global npm directory `C:\Users\<yourname>\AppData
 /tsconfig-build.json
 ```
 
-```
+```json
 // package.json
 //=====================
 
@@ -83,7 +90,7 @@ It will link your module A, to global npm directory `C:\Users\<yourname>\AppData
 
 ```
 
-```
+```json
 // tsconfig.json
 //=====================
 
@@ -121,12 +128,12 @@ It will link your module A, to global npm directory `C:\Users\<yourname>\AppData
 }
 ```
 
-```
+```json
 // tsconfig-build.json
 //=====================
 
 {
-	"compilerOptions": {		
+	"compilerOptions": {
 		"target": "es5",
 		"module": "es2015",
 		"moduleResolution": "node",
@@ -160,7 +167,7 @@ It will link your module A, to global npm directory `C:\Users\<yourname>\AppData
 
 # Module-B
 
-```
+```json
 // package.json
 //=====================
 
@@ -193,7 +200,7 @@ It will link your module A, to global npm directory `C:\Users\<yourname>\AppData
 
 ```
 
-```
+```json
 // tsconfig.json
 //=====================
 
@@ -231,7 +238,7 @@ It will link your module A, to global npm directory `C:\Users\<yourname>\AppData
 }
 ```
 
-```
+```json
 // webpack.config.js
 //=====================
 
@@ -300,7 +307,7 @@ module.exports = {
 
 As webpack 2 doesn't load linked module properly so for that we need to mention following lines in `webpack.config.js` file
 
-```
+```json
 resolve: {
     // This will resolve module path when using "npm link"
     alias: { "@angular": path.join(__dirname, "node_modules/@angular") }
