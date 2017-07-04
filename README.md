@@ -321,6 +321,27 @@ resolveLoader: {
 }
 ```
 
+
+## If you get following Error while running angular 4+ project then add `"skipLibCheck": true` in `tsconfig.json` in `"compilerOptions" : {}`
+
+```
+ERROR in [at-loader] ..\MyModule-A\node_modules\rxjs\Subject.d.ts:16:22
+    TS2415: Class 'Subject<T>' incorrectly extends base class 'Observable<T>'.
+  Types of property 'lift' are incompatible.
+    Type '<R>(operator: Operator<T, R>) => Observable<T>' is not assignable to type '<R>(operator: Operator<T, R>) => Observable<R>'.
+      Type 'Observable<T>' is not assignable to type 'Observable<R>'.
+        Type 'T' is not assignable to type 'R'.
+
+ERROR in [at-loader] ..\MyModule-A\node_modules\rxjs\observable\dom\WebSocketSubject.d.ts:24:22
+    TS2415: Class 'WebSocketSubject<T>' incorrectly extends base class 'AnonymousSubject<T>'.
+  Types of property 'lift' are incompatible.
+    Type '<R>(operator: Operator<T, R>) => WebSocketSubject<R>' is not assignable to type '<R>(operator: Operator<T, R>) => Observable<T>'.
+      Type 'WebSocketSubject<R>' is not assignable to type 'Observable<T>'.
+        Types of property 'operator' are incompatible.
+          Type 'Operator<any, R>' is not assignable to type 'Operator<any, T>'.
+            Type 'R' is not assignable to type 'T'.
+```
+
 Above code will fix module resolving issue in linked module.
 
 Thanks

@@ -9,6 +9,7 @@
 		"emitDecoratorMetadata": true,
 		"removeComments": false,
 		"noImplicitAny": true,
+		"skipLibCheck": true,
 		"baseUrl": ".", // This must be specified if "paths" is.
 		"lib": [
 			"es2015",
