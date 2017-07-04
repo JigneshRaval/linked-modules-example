@@ -1,6 +1,3 @@
-*.js
-*.d.ts
-*.js.map
 *.metadata.json
 *.ngfactory.ts
 
@@ -20,8 +17,6 @@
 /MyModule-B/src/**/*.js
 /MyModule-B/src/**/*.d.ts
 /MyModule-B/src/**/*.js.map
-
-
 
 # Logs
 logs
