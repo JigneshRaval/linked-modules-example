@@ -1,5 +1,4 @@
 import { Component, ViewContainerRef, ViewChild } from '@angular/core';
-import { BootstrapGrowlService, BootstrapAlertTypes } from './example-growl-notification/index';
 
 import { DialogComponent } from './dynamic-dialog-component/dialog.component';
 import { DialogAnchorDirective } from './dynamic-dialog-component/dialog-anchor.directive';
@@ -9,6 +8,7 @@ import { Logger } from '@nsalaun/ng-logger';
 
 // Example of Linked Component using `npm link MyModule-A`
 import { MyComponent } from 'MyModule-A';
+import { BootstrapGrowlService, BootstrapAlertTypes } from 'MyModule-A';
 
 @Component({
 	selector: 'my-app',
@@ -47,9 +47,9 @@ export class AppComponent {
 	}
 
 	addGrowlAlert() {
-		this.bootstrapGrowlService.addAlert("any custom message", BootstrapAlertTypes.SUCCESS);
-		this.bootstrapGrowlService.addAlert("any custom message <b>with</b> HTML", BootstrapAlertTypes.INFO);
-		this.bootstrapGrowlService.addAlert("any custom message", BootstrapAlertTypes.WARNING);
-		this.bootstrapGrowlService.addAlert("any custom message", BootstrapAlertTypes.DANGER, false);
+		this.bootstrapGrowlService.addAlert("any custom message 123", BootstrapAlertTypes.SUCCESS);
+		this.bootstrapGrowlService.addAlert("any custom message 456 <b>with</b> HTML", BootstrapAlertTypes.INFO);
+		this.bootstrapGrowlService.addAlert("any custom message 222", BootstrapAlertTypes.WARNING);
+		this.bootstrapGrowlService.addAlert("any custom message 888", BootstrapAlertTypes.DANGER, false);
 	}
 }

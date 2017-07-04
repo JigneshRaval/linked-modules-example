@@ -1,4 +1,22 @@
-dist
+# MyModule-A
+/MyModule-A/*.js
+/MyModule-A/*.d.ts
+/MyModule-A/*.js.map
+/MyModule-A/*.metadata.json
+
+/MyModule-A/src/**/*.js
+/MyModule-A/src/**/*.d.ts
+/MyModule-A/src/**/*.js.map
+/MyModule-A/src/**/*.metadata.json
+
+# MyModule-B
+/MyModule-B/dist/
+/MyModule-B/src/**/*.js
+/MyModule-B/src/**/*.d.ts
+/MyModule-B/src/**/*.js.map
+
+*.metadata.json
+*.ngfactory.ts
 
 # Logs
 logs

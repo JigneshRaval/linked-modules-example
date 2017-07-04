@@ -20,9 +20,7 @@ import MainDynamicComponent from './example-dynamic-component/dynamic-component.
 import { MainDynamicComponent2, DynamicComponent2 } from './dynamic-component2/dynamic-component2.main';
 import { DynamicComp2Service } from './dynamic-component2/dynamic-component2.service';
 
-// Example : Bootstrap Growl Notifications
-//===================================================
-import { BootstrapGrowlModule } from "./example-growl-notification/bootstrap-growl.module";
+
 
 // Example : Dynamic Dialog Component
 //===================================================
@@ -30,7 +28,12 @@ import { DialogAnchorDirective } from "./dynamic-dialog-component/dialog-anchor.
 import { DialogComponent } from "./dynamic-dialog-component/dialog.component";
 
 // Example of Linked Component using `npm link MyModule-A`
+//===================================================
 import { MyMainModule } from 'MyModule-A';
+
+// Example : Bootstrap Growl Notifications
+//===================================================
+import { BootstrapGrowlModule } from "MyModule-A";
 
 import { NgLoggerModule, Level } from '@nsalaun/ng-logger';
 

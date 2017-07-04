@@ -12,4 +12,4 @@
 // *.d.ts files will generate when we run "npm run ngc" command and "declaration": true in tsconfig.json file
 export { MyMainModule } from './src/index';
 export { MyComponent } from './src/mycomponent.component';
-
+export * from './src/growl-notifications';
