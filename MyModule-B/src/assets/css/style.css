@@ -1,3 +1,32 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.example-section {
+	border: 1px solid #CCC;
+	margin: 2em 0;
+	padding: 3em 1em 1em 1em;
+	position: relative;
+}
+.example-section::after {
+	content: "Example";
+	position: absolute;
+	top:0;
+	right: 0;
+	padding: 10px 20px;
+	background-color: #CCC;
+}
+a, button {
+    display: inline-block;
+    padding: 1em;
+    border: 1px solid blue;
+}
+
+pre {
+    font-family: Menlo, Monaco, monospace;
+    border: 1px dashed #EEE;
+    padding: 1em;
+}
+
+h1, h2, h3, h4 {
+	padding: 1em 0;
+}

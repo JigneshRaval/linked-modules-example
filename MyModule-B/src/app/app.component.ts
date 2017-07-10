@@ -23,36 +23,50 @@ import { BootstrapGrowlService, BootstrapAlertTypes } from 'MyModule-A';
 
 			<dynamic-component-main2></dynamic-component-main2>
 
-			<h3>Bootstrap Growl Notifications</h3>
-			<bootstrap-growl [alertCount]="3" [autoClose]="10000"></bootstrap-growl>
-			<button (click)="addGrowlAlert()">Test</button>
+			<div class="example-section">
+				<h3>Bootstrap Growl Notifications</h3>
+				<bootstrap-growl [alertCount]="3" [autoClose]="10000"></bootstrap-growl>
+				<button (click)="addGrowlAlert()">Test</button>
+			</div>
 
-			<div dialogAnchor></div>
-			<div class="open-button" (click)='openDialogBox()'>Open dialog box</div>
+			<div class="example-section">
+				<h4>Dynamic Dialog box Example</h4>
+				<div dialogAnchor></div>
+				<button class="open-button" (click)='openDialogBox()'>Open dialog box</button>
+			</div>
 
 			<my-component></my-component>
 
-			<!-- Parent child data passing example -->
-			<!-- Data passing 1 -->
-			<parent-component-1></parent-component-1>
+			<div class="example-section">
+				<!-- Parent child data passing example -->
+				<!-- Data passing 1 -->
+				<parent-component-1></parent-component-1>
+			</div>
 
-			<!-- Data passing 2 -->
-			<counter-parent-component></counter-parent-component>
+			<div class="example-section">
+				<!-- Data passing 2 -->
+				<counter-parent-component></counter-parent-component>
+			</div>
 
-			<!-- Component Inheritance and Component Swapping -->
-			<h3>Component Inheritance and Component Swapping</h3>
-			<app-main-employee></app-main-employee>
+			<div class="example-section">
+				<!-- Component Inheritance and Component Swapping -->
+				<h3>Component Inheritance and Component Swapping</h3>
+				<app-main-employee></app-main-employee>
+			</div>
 
-			<!-- Directive Example -->
-			<h3>Directives</h3>
-			<!-- hightlight.directive.ts -->
-			<p myHighlight [highlightBgColor]="bgColor"   [highlightTextColor]="textColor">Dynamic Highlight Directive</p>
-			<pre>&lt;p myHighlight [highlightBgColor]="bgColor" [highlightTextColor]="textColor">Dynamic Highlight Directive&lt;/p></pre>
+			<div class="example-section">
+				<!-- Directive Example -->
+				<h3>Directives</h3>
+				<!-- hightlight.directive.ts -->
+				<p myHighlight [highlightBgColor]="bgColor"   [highlightTextColor]="textColor">Dynamic Highlight Directive</p>
+				<pre>&lt;p myHighlight [highlightBgColor]="bgColor" [highlightTextColor]="textColor">Dynamic Highlight Directive&lt;/p></pre>
 
-			<p myHighlight highlightBgColor="yellow"      highlightTextColor="black">Highlighted in yellow Directive</p>
-			<pre>&lt;p myHighlight highlightBgColor="yellow" highlightTextColor="black">Highlighted in yellow Directive&lt;/p></pre>
+				<p myHighlight highlightBgColor="yellow"      highlightTextColor="black">Highlighted in yellow Directive</p>
+				<pre>&lt;p myHighlight highlightBgColor="yellow" highlightTextColor="black">Highlighted in yellow Directive&lt;/p></pre>
 
-			<p myHighlight [highlightBgColor]="'orange'"  [highlightTextColor]="'white'">Highlighted in orange Directive</p>
+				<p myHighlight [highlightBgColor]="'orange'"  [highlightTextColor]="'white'">Highlighted in orange Directive</p>
+			</div>
+
 		</div>
     `,
 	styleUrls: [],
