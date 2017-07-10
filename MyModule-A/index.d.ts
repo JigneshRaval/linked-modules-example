@@ -11,3 +11,10 @@
 export { MyMainModule } from './src/index';
 export { MyComponent } from './src/mycomponent.component';
 export * from './src/growl-notifications';
+export * from './src/component-inheritance-and-swapping';
+export { HighlightDirective } from './src/directives/example-1/highlight.directive';
+export { ParentComponent } from './src/data-passing-1/parent.component';
+export { ChildComponent } from './src/data-passing-1/child.component';
+export { CounterParentComponent } from './src/data-passing-2/counter-parent.component';
+export { CounterChildComponent } from './src/data-passing-2/counter-child.component';
+export { GrandChildComponent } from './src/data-passing-2/counter-grandchild.component';

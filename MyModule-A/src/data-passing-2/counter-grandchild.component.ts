@@ -5,7 +5,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     template: `
         <div style="padding: 1em; margin: 1em; border: 1px solid green">
             <h3>Grand Child Component {{count}}</h3>
-            <a href="#" (click)="grandChildEvent()">Grand child Click</a>
+            <a href="javascript:void(0);" (click)="grandChildEvent()">Grand child Click</a>
         </div>
     `
 })

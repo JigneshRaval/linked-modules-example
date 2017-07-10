@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
     template: `
     <div style="margin: 1em; padding: 1em; border: 1px solid red;">
         <h2>Parent Component 2</h2>
-        <a href="#" (click)="increment();">Increment Parent Count</a>
+        <a href="javascript:void(0);" (click)="increment();">Increment Parent Count</a>
         <p><strong>My Count Parent :</strong> {{ myCount }}</p>
         <counter-child-component [count]="myCount" (myChildEvent)="parentEvent($event)"></counter-child-component>
     </div>
@@ -17,7 +17,7 @@ import { Component } from '@angular/core';
 export class CounterParentComponent {
     myCount: number = 10;
 
-    parentEvent(count) {
+    parentEvent(count: number) {
         this.myCount = count;
         console.log("Parent Event executed by child.", this.myCount);
     }

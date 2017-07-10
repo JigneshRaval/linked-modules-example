@@ -8,32 +8,60 @@ import { Logger } from '@nsalaun/ng-logger';
 
 // Example of Linked Component using `npm link MyModule-A`
 import { MyComponent } from 'MyModule-A';
+
 import { BootstrapGrowlService, BootstrapAlertTypes } from 'MyModule-A';
 
 @Component({
 	selector: 'my-app',
 	template: `
-        <div>Hello Angular 4</div>
+		<div class="container">
+			<p>Hello Angular 4</p>
 
-        <mousewheel-directive-example-component></mousewheel-directive-example-component>
+			<mousewheel-directive-example-component></mousewheel-directive-example-component>
 
-        <dynamic-component-main></dynamic-component-main>
+			<dynamic-component-main></dynamic-component-main>
 
-		<dynamic-component-main2></dynamic-component-main2>
+			<dynamic-component-main2></dynamic-component-main2>
 
-		<bootstrap-growl [alertCount]="3" [autoClose]="10000"></bootstrap-growl>
+			<h3>Bootstrap Growl Notifications</h3>
+			<bootstrap-growl [alertCount]="3" [autoClose]="10000"></bootstrap-growl>
+			<button (click)="addGrowlAlert()">Test</button>
 
-        <button (click)="addGrowlAlert()">Test</button>
+			<div dialogAnchor></div>
+			<div class="open-button" (click)='openDialogBox()'>Open dialog box</div>
 
-		<div dialogAnchor></div>
-        <div class="open-button" (click)='openDialogBox()'>Open dialog box</div>
+			<my-component></my-component>
 
-		<my-component></my-component>
+			<!-- Parent child data passing example -->
+			<!-- Data passing 1 -->
+			<parent-component-1></parent-component-1>
+
+			<!-- Data passing 2 -->
+			<counter-parent-component></counter-parent-component>
+
+			<!-- Component Inheritance and Component Swapping -->
+			<h3>Component Inheritance and Component Swapping</h3>
+			<app-main-employee></app-main-employee>
+
+			<!-- Directive Example -->
+			<h3>Directives</h3>
+			<!-- hightlight.directive.ts -->
+			<p myHighlight [highlightBgColor]="bgColor"   [highlightTextColor]="textColor">Dynamic Highlight Directive</p>
+			<pre>&lt;p myHighlight [highlightBgColor]="bgColor" [highlightTextColor]="textColor">Dynamic Highlight Directive&lt;/p></pre>
+
+			<p myHighlight highlightBgColor="yellow"      highlightTextColor="black">Highlighted in yellow Directive</p>
+			<pre>&lt;p myHighlight highlightBgColor="yellow" highlightTextColor="black">Highlighted in yellow Directive&lt;/p></pre>
+
+			<p myHighlight [highlightBgColor]="'orange'"  [highlightTextColor]="'white'">Highlighted in orange Directive</p>
+		</div>
     `,
 	styleUrls: [],
 	entryComponents: [DialogComponent]
 })
 export class AppComponent {
+	bgColor: string = 'blue';
+	textColor: string = 'white';
+
 	constructor(private bootstrapGrowlService: BootstrapGrowlService, private logger: Logger) {
 
 		this.logger.log('Hello !', "It's working :)");

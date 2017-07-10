@@ -6,7 +6,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
         <div style="padding: 1em; margin: 1em; border: 1px solid blue">
             <h3>Child Component</h3>
             <p>Counter Child Component {{count}}</p>
-            <a href="#" (click)="childOutput(count)">Click Here</a>
+            <a href="javascript:void(0);" (click)="childOutput(count)">Click Here</a>
 
             <grand-child-component [count]="count" (myGrandChildEvent)="grandChildOutput($event)"></grand-child-component>
         </div>
@@ -22,7 +22,7 @@ export class CounterChildComponent {
         this.myChildEvent.emit(this.count);
     }
 
-    grandChildOutput(event) {
+    grandChildOutput(count: number) {
 
         this.count = 15;
         this.myChildEvent.emit(this.count);

@@ -11,5 +11,17 @@
 // *.d.ts files will generate when we run "npm run ngc" command and "declaration": true in tsconfig.json file
 export { MyMainModule } from './src/index';
 export { MyComponent } from './src/mycomponent.component';
+// Growl Notification
 export * from './src/growl-notifications';
+// Component Inheritance and Component swapping
+export * from './src/component-inheritance-and-swapping';
+// Directive Examples
+export { HighlightDirective } from './src/directives/example-1/highlight.directive';
+// Data Passing from Parent to child and Child to Parent
+export { ParentComponent } from './src/data-passing-1/parent.component';
+export { ChildComponent } from './src/data-passing-1/child.component';
+// Data Passing from Parent to child to Grand child
+export { CounterParentComponent } from './src/data-passing-2/counter-parent.component';
+export { CounterChildComponent } from './src/data-passing-2/counter-child.component';
+export { GrandChildComponent } from './src/data-passing-2/counter-grandchild.component';
 //# sourceMappingURL=index.js.map

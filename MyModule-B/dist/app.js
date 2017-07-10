@@ -2403,13 +2403,27 @@ exports.EmptyError = EmptyError;
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_index__ = __webpack_require__(214);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_mycomponent_component__ = __webpack_require__(139);
 /* unused harmony reexport MyComponent */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_growl_notifications__ = __webpack_require__(215);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_growl_notifications__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__src_growl_notifications__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_growl_notifications__["c"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_component_inheritance_and_swapping__ = __webpack_require__(837);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_3__src_component_inheritance_and_swapping__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_directives_example_1_highlight_directive__ = __webpack_require__(839);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_4__src_directives_example_1_highlight_directive__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_data_passing_1_parent_component__ = __webpack_require__(840);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_5__src_data_passing_1_parent_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_data_passing_1_child_component__ = __webpack_require__(841);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_6__src_data_passing_1_child_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_data_passing_2_counter_parent_component__ = __webpack_require__(842);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_7__src_data_passing_2_counter_parent_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_data_passing_2_counter_child_component__ = __webpack_require__(843);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_8__src_data_passing_2_counter_child_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_data_passing_2_counter_grandchild_component__ = __webpack_require__(844);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_9__src_data_passing_2_counter_grandchild_component__["a"]; });
 /**
  * @license
  * Copyright Noémi Salaün All Rights Reserved.
@@ -2421,6 +2435,18 @@ exports.EmptyError = EmptyError;
  * Created by Noémi Salaün on 17/09/2016.
  */
 // *.d.ts files will generate when we run "npm run ngc" command and "declaration": true in tsconfig.json file
+
+
+// Growl Notification
+
+// Component Inheritance and Component swapping
+
+// Directive Examples
+
+// Data Passing from Parent to child and Child to Parent
+
+
+// Data Passing from Parent to child to Grand child
 
 
 
@@ -6883,6 +6909,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 //===================================================
 
 
+
+// Directive Examples
+// Directives
+
+// Data Passing from Parent to child and Child to Parent
+
+
+// Data Passing from Parent to child to Grand child
+
+
+
 var AppModule = (function () {
     function AppModule() {
     }
@@ -6892,7 +6929,8 @@ var AppModule = (function () {
                 // Imports Metadata tells the angular list of other modules used by this module.
                 __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["b" /* BootstrapGrowlModule */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["d" /* MyMainModule */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["i" /* MyMainModule */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["k" /* SwappingModuleDemo */],
                 __WEBPACK_IMPORTED_MODULE_14__nsalaun_ng_logger__["c" /* NgLoggerModule */].forRoot(__WEBPACK_IMPORTED_MODULE_14__nsalaun_ng_logger__["a" /* Level */].LOG)
             ],
             declarations: [
@@ -6901,7 +6939,10 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_3__example_directive_mouse_events_mousewheel_directive__["a" /* MouseWheelDirective */], __WEBPACK_IMPORTED_MODULE_4__example_directive_mouse_events_mousewheel_component__["a" /* MouseWheelDirectiveExampleComponent */],
                 __WEBPACK_IMPORTED_MODULE_5__example_dynamic_component_hello_world_component__["a" /* default */], __WEBPACK_IMPORTED_MODULE_6__example_dynamic_component_world_hello_component__["a" /* default */], __WEBPACK_IMPORTED_MODULE_7__example_dynamic_component_dynamic_component__["a" /* default */], __WEBPACK_IMPORTED_MODULE_8__example_dynamic_component_dynamic_component_main__["a" /* default */],
                 __WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__["a" /* DynamicComponent2 */], __WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__["b" /* MainDynamicComponent2 */],
-                __WEBPACK_IMPORTED_MODULE_12__dynamic_dialog_component_dialog_component__["a" /* DialogComponent */], __WEBPACK_IMPORTED_MODULE_11__dynamic_dialog_component_dialog_anchor_directive__["a" /* DialogAnchorDirective */]
+                __WEBPACK_IMPORTED_MODULE_12__dynamic_dialog_component_dialog_component__["a" /* DialogComponent */], __WEBPACK_IMPORTED_MODULE_11__dynamic_dialog_component_dialog_anchor_directive__["a" /* DialogAnchorDirective */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["h" /* HighlightDirective */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["j" /* ParentComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["d" /* ChildComponent */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["f" /* CounterParentComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["e" /* CounterChildComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["g" /* GrandChildComponent */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_10__dynamic_component2_dynamic_component2_service__["a" /* DynamicComp2Service */]
@@ -6950,6 +6991,8 @@ var AppComponent = (function () {
     function AppComponent(bootstrapGrowlService, logger) {
         this.bootstrapGrowlService = bootstrapGrowlService;
         this.logger = logger;
+        this.bgColor = 'blue';
+        this.textColor = 'white';
         this.logger.log('Hello !', "It's working :)");
     }
     AppComponent.prototype.openDialogBox = function () {
@@ -6968,7 +7011,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
             selector: 'my-app',
-            template: "\n        <div>Hello Angular 4</div>\n\n        <mousewheel-directive-example-component></mousewheel-directive-example-component>\n\n        <dynamic-component-main></dynamic-component-main>\n\n\t\t<dynamic-component-main2></dynamic-component-main2>\n\n\t\t<bootstrap-growl [alertCount]=\"3\" [autoClose]=\"10000\"></bootstrap-growl>\n\n        <button (click)=\"addGrowlAlert()\">Test</button>\n\n\t\t<div dialogAnchor></div>\n        <div class=\"open-button\" (click)='openDialogBox()'>Open dialog box</div>\n\n\t\t<my-component></my-component>\n    ",
+            template: "\n\t\t<div class=\"container\">\n\t\t\t<p>Hello Angular 4</p>\n\n\t\t\t<mousewheel-directive-example-component></mousewheel-directive-example-component>\n\n\t\t\t<dynamic-component-main></dynamic-component-main>\n\n\t\t\t<dynamic-component-main2></dynamic-component-main2>\n\n\t\t\t<h3>Bootstrap Growl Notifications</h3>\n\t\t\t<bootstrap-growl [alertCount]=\"3\" [autoClose]=\"10000\"></bootstrap-growl>\n\t\t\t<button (click)=\"addGrowlAlert()\">Test</button>\n\n\t\t\t<div dialogAnchor></div>\n\t\t\t<div class=\"open-button\" (click)='openDialogBox()'>Open dialog box</div>\n\n\t\t\t<my-component></my-component>\n\n\t\t\t<!-- Parent child data passing example -->\n\t\t\t<!-- Data passing 1 -->\n\t\t\t<parent-component-1></parent-component-1>\n\n\t\t\t<!-- Data passing 2 -->\n\t\t\t<counter-parent-component></counter-parent-component>\n\n\t\t\t<!-- Component Inheritance and Component Swapping -->\n\t\t\t<h3>Component Inheritance and Component Swapping</h3>\n\t\t\t<app-main-employee></app-main-employee>\n\n\t\t\t<!-- Directive Example -->\n\t\t\t<h3>Directives</h3>\n\t\t\t<!-- hightlight.directive.ts -->\n\t\t\t<p myHighlight [highlightBgColor]=\"bgColor\"   [highlightTextColor]=\"textColor\">Dynamic Highlight Directive</p>\n\t\t\t<pre>&lt;p myHighlight [highlightBgColor]=\"bgColor\" [highlightTextColor]=\"textColor\">Dynamic Highlight Directive&lt;/p></pre>\n\n\t\t\t<p myHighlight highlightBgColor=\"yellow\"      highlightTextColor=\"black\">Highlighted in yellow Directive</p>\n\t\t\t<pre>&lt;p myHighlight highlightBgColor=\"yellow\" highlightTextColor=\"black\">Highlighted in yellow Directive&lt;/p></pre>\n\n\t\t\t<p myHighlight [highlightBgColor]=\"'orange'\"  [highlightTextColor]=\"'white'\">Highlighted in orange Directive</p>\n\t\t</div>\n    ",
             styleUrls: [],
             entryComponents: [__WEBPACK_IMPORTED_MODULE_1__dynamic_dialog_component_dialog_component__["a" /* DialogComponent */]]
         }),
@@ -21297,6 +21340,862 @@ var MainDynamicComponent2 = (function () {
 
 
 
+
+/***/ }),
+/* 503 */,
+/* 504 */,
+/* 505 */,
+/* 506 */,
+/* 507 */,
+/* 508 */,
+/* 509 */,
+/* 510 */,
+/* 511 */,
+/* 512 */,
+/* 513 */,
+/* 514 */,
+/* 515 */,
+/* 516 */,
+/* 517 */,
+/* 518 */,
+/* 519 */,
+/* 520 */,
+/* 521 */,
+/* 522 */,
+/* 523 */,
+/* 524 */,
+/* 525 */,
+/* 526 */,
+/* 527 */,
+/* 528 */,
+/* 529 */,
+/* 530 */,
+/* 531 */,
+/* 532 */,
+/* 533 */,
+/* 534 */,
+/* 535 */,
+/* 536 */,
+/* 537 */,
+/* 538 */,
+/* 539 */,
+/* 540 */,
+/* 541 */,
+/* 542 */,
+/* 543 */,
+/* 544 */,
+/* 545 */,
+/* 546 */,
+/* 547 */,
+/* 548 */,
+/* 549 */,
+/* 550 */,
+/* 551 */,
+/* 552 */,
+/* 553 */,
+/* 554 */,
+/* 555 */,
+/* 556 */,
+/* 557 */,
+/* 558 */,
+/* 559 */,
+/* 560 */,
+/* 561 */,
+/* 562 */,
+/* 563 */,
+/* 564 */,
+/* 565 */,
+/* 566 */,
+/* 567 */,
+/* 568 */,
+/* 569 */,
+/* 570 */,
+/* 571 */,
+/* 572 */,
+/* 573 */,
+/* 574 */,
+/* 575 */,
+/* 576 */,
+/* 577 */,
+/* 578 */,
+/* 579 */,
+/* 580 */,
+/* 581 */,
+/* 582 */,
+/* 583 */,
+/* 584 */,
+/* 585 */,
+/* 586 */,
+/* 587 */,
+/* 588 */,
+/* 589 */,
+/* 590 */,
+/* 591 */,
+/* 592 */,
+/* 593 */,
+/* 594 */,
+/* 595 */,
+/* 596 */,
+/* 597 */,
+/* 598 */,
+/* 599 */,
+/* 600 */,
+/* 601 */,
+/* 602 */,
+/* 603 */,
+/* 604 */,
+/* 605 */,
+/* 606 */,
+/* 607 */,
+/* 608 */,
+/* 609 */,
+/* 610 */,
+/* 611 */,
+/* 612 */,
+/* 613 */,
+/* 614 */,
+/* 615 */,
+/* 616 */,
+/* 617 */,
+/* 618 */,
+/* 619 */,
+/* 620 */,
+/* 621 */,
+/* 622 */,
+/* 623 */,
+/* 624 */,
+/* 625 */,
+/* 626 */,
+/* 627 */,
+/* 628 */,
+/* 629 */,
+/* 630 */,
+/* 631 */,
+/* 632 */,
+/* 633 */,
+/* 634 */,
+/* 635 */,
+/* 636 */,
+/* 637 */,
+/* 638 */,
+/* 639 */,
+/* 640 */,
+/* 641 */,
+/* 642 */,
+/* 643 */,
+/* 644 */,
+/* 645 */,
+/* 646 */,
+/* 647 */,
+/* 648 */,
+/* 649 */,
+/* 650 */,
+/* 651 */,
+/* 652 */,
+/* 653 */,
+/* 654 */,
+/* 655 */,
+/* 656 */,
+/* 657 */,
+/* 658 */,
+/* 659 */,
+/* 660 */,
+/* 661 */,
+/* 662 */,
+/* 663 */,
+/* 664 */,
+/* 665 */,
+/* 666 */,
+/* 667 */,
+/* 668 */,
+/* 669 */,
+/* 670 */,
+/* 671 */,
+/* 672 */,
+/* 673 */,
+/* 674 */,
+/* 675 */,
+/* 676 */,
+/* 677 */,
+/* 678 */,
+/* 679 */,
+/* 680 */,
+/* 681 */,
+/* 682 */,
+/* 683 */,
+/* 684 */,
+/* 685 */,
+/* 686 */,
+/* 687 */,
+/* 688 */,
+/* 689 */,
+/* 690 */,
+/* 691 */,
+/* 692 */,
+/* 693 */,
+/* 694 */,
+/* 695 */,
+/* 696 */,
+/* 697 */,
+/* 698 */,
+/* 699 */,
+/* 700 */,
+/* 701 */,
+/* 702 */,
+/* 703 */,
+/* 704 */,
+/* 705 */,
+/* 706 */,
+/* 707 */,
+/* 708 */,
+/* 709 */,
+/* 710 */,
+/* 711 */,
+/* 712 */,
+/* 713 */,
+/* 714 */,
+/* 715 */,
+/* 716 */,
+/* 717 */,
+/* 718 */,
+/* 719 */,
+/* 720 */,
+/* 721 */,
+/* 722 */,
+/* 723 */,
+/* 724 */,
+/* 725 */,
+/* 726 */,
+/* 727 */,
+/* 728 */,
+/* 729 */,
+/* 730 */,
+/* 731 */,
+/* 732 */,
+/* 733 */,
+/* 734 */,
+/* 735 */,
+/* 736 */,
+/* 737 */,
+/* 738 */,
+/* 739 */,
+/* 740 */,
+/* 741 */,
+/* 742 */,
+/* 743 */,
+/* 744 */,
+/* 745 */,
+/* 746 */,
+/* 747 */,
+/* 748 */,
+/* 749 */,
+/* 750 */,
+/* 751 */,
+/* 752 */,
+/* 753 */,
+/* 754 */,
+/* 755 */,
+/* 756 */,
+/* 757 */,
+/* 758 */,
+/* 759 */,
+/* 760 */,
+/* 761 */,
+/* 762 */,
+/* 763 */,
+/* 764 */,
+/* 765 */,
+/* 766 */,
+/* 767 */,
+/* 768 */,
+/* 769 */,
+/* 770 */,
+/* 771 */,
+/* 772 */,
+/* 773 */,
+/* 774 */,
+/* 775 */,
+/* 776 */,
+/* 777 */,
+/* 778 */,
+/* 779 */,
+/* 780 */,
+/* 781 */,
+/* 782 */,
+/* 783 */,
+/* 784 */,
+/* 785 */,
+/* 786 */,
+/* 787 */,
+/* 788 */,
+/* 789 */,
+/* 790 */,
+/* 791 */,
+/* 792 */,
+/* 793 */,
+/* 794 */,
+/* 795 */,
+/* 796 */,
+/* 797 */,
+/* 798 */,
+/* 799 */,
+/* 800 */,
+/* 801 */,
+/* 802 */,
+/* 803 */,
+/* 804 */,
+/* 805 */,
+/* 806 */,
+/* 807 */,
+/* 808 */,
+/* 809 */,
+/* 810 */,
+/* 811 */,
+/* 812 */,
+/* 813 */,
+/* 814 */,
+/* 815 */,
+/* 816 */,
+/* 817 */,
+/* 818 */,
+/* 819 */,
+/* 820 */,
+/* 821 */,
+/* 822 */,
+/* 823 */,
+/* 824 */,
+/* 825 */,
+/* 826 */,
+/* 827 */,
+/* 828 */,
+/* 829 */,
+/* 830 */,
+/* 831 */,
+/* 832 */,
+/* 833 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BaseEmployeeComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
+// REF : https://coryrylan.com/blog/angular-component-inheritance-and-template-swapping
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+// Base Component
+// employee-list.component.ts and employee-table.component.ts will extend our base employee class
+// Here we are not using any template
+
+var BaseEmployeeComponent = (function () {
+    function BaseEmployeeComponent() {
+        this.employees = [];
+        this.select = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        this.heading = 'Employee';
+    }
+    BaseEmployeeComponent.prototype.selectEmployeeBaseEvent = function (employee) {
+        console.log("Select employee Base Event.");
+        this.select.emit(employee);
+    };
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */](),
+        __metadata("design:type", Array)
+    ], BaseEmployeeComponent.prototype, "employees", void 0);
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */](),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */])
+    ], BaseEmployeeComponent.prototype, "select", void 0);
+    BaseEmployeeComponent = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'app-base-employee',
+            template: ''
+        })
+    ], BaseEmployeeComponent);
+    return BaseEmployeeComponent;
+}());
+
+//# sourceMappingURL=base-employee.component.js.map
+
+/***/ }),
+/* 834 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmployeeListComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__base_employee_component__ = __webpack_require__(833);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var EmployeeListComponent = (function (_super) {
+    __extends(EmployeeListComponent, _super);
+    function EmployeeListComponent() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.heading = "Employee List";
+        return _this;
+    }
+    EmployeeListComponent = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'app-employee-list',
+            template: "\n        <h1>{{heading}}</h1>\n        <ul>\n            <li *ngFor=\"let employee of employees\">\n                {{employee.firstName}} {{employee.lastName}} <br/>\n                {{employee.email}} <br/>\n                <button (click)=\"selectEmployeeBaseEvent(employee)\">Select Employee</button>\n            </li>\n        </ul>\n    "
+        })
+    ], EmployeeListComponent);
+    return EmployeeListComponent;
+}(__WEBPACK_IMPORTED_MODULE_1__base_employee_component__["a" /* BaseEmployeeComponent */]));
+
+//# sourceMappingURL=employee-list.component.js.map
+
+/***/ }),
+/* 835 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmployeeTableComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__base_employee_component__ = __webpack_require__(833);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var EmployeeTableComponent = (function (_super) {
+    __extends(EmployeeTableComponent, _super);
+    function EmployeeTableComponent() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.heading = "Employee Table";
+        return _this;
+    }
+    EmployeeTableComponent = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'app-employee-table',
+            template: "\n        <h1>{{heading}}</h1>\n        <table>\n            <tr>\n                <td>First Name</td>\n                <td>Last Name</td>\n                <td>Email</td>\n            </tr>\n            <tr *ngFor=\"let employee of employees\">\n                <td>{{employee.firstName}}</td>\n                <td>{{employee.lastName}}</td>\n                <td>{{employee.email}}</td>\n                <td><button (click)=\"selectEmployeeBaseEvent(employee)\">Select</button></td>\n            </tr>\n        </table>\n    "
+        })
+    ], EmployeeTableComponent);
+    return EmployeeTableComponent;
+}(__WEBPACK_IMPORTED_MODULE_1__base_employee_component__["a" /* BaseEmployeeComponent */]));
+
+//# sourceMappingURL=employee-table.component.js.map
+
+/***/ }),
+/* 836 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MainEmployeeComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var employees = [
+    { id: 0, firstName: 'Luke', lastName: 'Skywalker', email: 'last_jedi@lukeskywalker.com' },
+    { id: 1, firstName: 'Han', lastName: 'Solo', email: 'scoundrel@hansolo.com' },
+    { id: 2, firstName: 'Leia', lastName: 'Organa', email: 'princess@leiaorgana.com' },
+];
+var MainEmployeeComponent = (function () {
+    function MainEmployeeComponent() {
+        this.displayTable = true;
+        this.employees = employees;
+        this.selectedEmployee = employees[0];
+    }
+    MainEmployeeComponent.prototype.selectEmp = function (employee) {
+        console.log("selectEmp function emitted.");
+        this.selectedEmployee = employee;
+    };
+    MainEmployeeComponent = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'app-main-employee',
+            template: "\n        <p>Selected Employee: <br> {{selectedEmployee.firstName}} {{selectedEmployee.lastName}}</p>\n\n        <button (click)=\"displayTable = true\">Show Table</button>\n        <button (click)=\"displayTable = false\">Show List</button>\n\n        <app-employee-list [employees]=\"employees\" (select)=\"selectEmp($event)\" *ngIf=\"!displayTable\"></app-employee-list>\n        <app-employee-table [employees]=\"employees\" (select)=\"selectEmp($event)\" *ngIf=\"displayTable\"></app-employee-table>\n    "
+        }),
+        __metadata("design:paramtypes", [])
+    ], MainEmployeeComponent);
+    return MainEmployeeComponent;
+}());
+
+//# sourceMappingURL=main.component.js.map
+
+/***/ }),
+/* 837 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__employee_list_component__ = __webpack_require__(834);
+/* unused harmony reexport EmployeeListComponent */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__employee_table_component__ = __webpack_require__(835);
+/* unused harmony reexport EmployeeTableComponent */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__base_employee_component__ = __webpack_require__(833);
+/* unused harmony reexport BaseEmployeeComponent */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__main_component__ = __webpack_require__(836);
+/* unused harmony reexport MainEmployeeComponent */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__main_module__ = __webpack_require__(838);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_4__main_module__["a"]; });
+
+
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 838 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SwappingModuleDemo; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__base_employee_component__ = __webpack_require__(833);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__employee_list_component__ = __webpack_require__(834);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__employee_table_component__ = __webpack_require__(835);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__main_component__ = __webpack_require__(836);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var SwappingModuleDemo = (function () {
+    function SwappingModuleDemo() {
+    }
+    SwappingModuleDemo = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */]({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1__angular_common__["a" /* CommonModule */]
+            ],
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__main_component__["a" /* MainEmployeeComponent */],
+                __WEBPACK_IMPORTED_MODULE_2__base_employee_component__["a" /* BaseEmployeeComponent */],
+                __WEBPACK_IMPORTED_MODULE_3__employee_list_component__["a" /* EmployeeListComponent */],
+                __WEBPACK_IMPORTED_MODULE_4__employee_table_component__["a" /* EmployeeTableComponent */]
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_5__main_component__["a" /* MainEmployeeComponent */],
+                __WEBPACK_IMPORTED_MODULE_2__base_employee_component__["a" /* BaseEmployeeComponent */],
+                __WEBPACK_IMPORTED_MODULE_3__employee_list_component__["a" /* EmployeeListComponent */],
+                __WEBPACK_IMPORTED_MODULE_4__employee_table_component__["a" /* EmployeeTableComponent */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* NO_ERRORS_SCHEMA */]]
+        })
+    ], SwappingModuleDemo);
+    return SwappingModuleDemo;
+}());
+
+//# sourceMappingURL=main.module.js.map
+
+/***/ }),
+/* 839 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HighlightDirective; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
+// REF : https://angular.io/guide/attribute-directives
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HighlightDirective = (function () {
+    function HighlightDirective(el) {
+        this.el = el;
+        this.el.nativeElement.style.padding = '1em';
+    }
+    HighlightDirective.prototype.onMouseEnter = function () {
+        this.highlight(this.highlightBgColor, this.highlightTextColor);
+    };
+    HighlightDirective.prototype.onMouseLeave = function () {
+        this.highlight(null, 'black');
+    };
+    HighlightDirective.prototype.highlight = function (bgColor, color) {
+        this.el.nativeElement.style.backgroundColor = bgColor;
+        this.el.nativeElement.style.color = color;
+    };
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */](),
+        __metadata("design:type", String)
+    ], HighlightDirective.prototype, "highlightBgColor", void 0);
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */](),
+        __metadata("design:type", String)
+    ], HighlightDirective.prototype, "highlightTextColor", void 0);
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* HostListener */]('mouseenter'),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", []),
+        __metadata("design:returntype", void 0)
+    ], HighlightDirective.prototype, "onMouseEnter", null);
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* HostListener */]('mouseleave'),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", []),
+        __metadata("design:returntype", void 0)
+    ], HighlightDirective.prototype, "onMouseLeave", null);
+    HighlightDirective = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */]({
+            selector: '[myHighlight]'
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */]])
+    ], HighlightDirective);
+    return HighlightDirective;
+}());
+
+//# sourceMappingURL=highlight.directive.js.map
+
+/***/ }),
+/* 840 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ParentComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
+// REF : https://www.themarketingtechnologist.co/building-nested-components-in-angular-2/
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var ParentComponent = (function () {
+    function ParentComponent() {
+        this.inputValue = " Hi from parent component ";
+    }
+    ParentComponent.prototype.onNotify = function (message) {
+        alert(message);
+    };
+    ParentComponent = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'parent-component-1',
+            template: "\n    <div style=\"padding: 1em; border: 1px solid red;\">\n        <h1>I'm a container component ( Parent Component )</h1>\n        <child-component-1 [title]=\"inputValue\" (notify)=\"onNotify($event)\"></child-component-1>\n    </div>\n    "
+        })
+    ], ParentComponent);
+    return ParentComponent;
+}());
+
+//# sourceMappingURL=parent.component.js.map
+
+/***/ }),
+/* 841 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChildComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ChildComponent = (function () {
+    function ChildComponent() {
+        this.notify = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+    }
+    ChildComponent.prototype.onclick = function () {
+        this.notify.emit('Click from nested Child component.');
+    };
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */](),
+        __metadata("design:type", String)
+    ], ChildComponent.prototype, "title", void 0);
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */](),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */])
+    ], ChildComponent.prototype, "notify", void 0);
+    ChildComponent = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'child-component-1',
+            template: "\n        <h2>{{title}}</h2>\n        <span (click)=\"onclick()\">Event</span>\n    "
+        })
+    ], ChildComponent);
+    return ChildComponent;
+}());
+
+//# sourceMappingURL=child.component.js.map
+
+/***/ }),
+/* 842 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CounterParentComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
+// REF : https://toddmotto.com/component-events-event-emitter-output-angular-2
+// REF : https://hahoangv.wordpress.com/2016/05/21/angular-2-essentials-component-with-inputs-and-outputs/
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var CounterParentComponent = (function () {
+    function CounterParentComponent() {
+        this.myCount = 10;
+    }
+    CounterParentComponent.prototype.parentEvent = function (count) {
+        this.myCount = count;
+        console.log("Parent Event executed by child.", this.myCount);
+    };
+    CounterParentComponent.prototype.increment = function () {
+        this.myCount++;
+    };
+    CounterParentComponent = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'counter-parent-component',
+            template: "\n    <div style=\"margin: 1em; padding: 1em; border: 1px solid red;\">\n        <h2>Parent Component 2</h2>\n        <a href=\"javascript:void(0);\" (click)=\"increment();\">Increment Parent Count</a>\n        <p><strong>My Count Parent :</strong> {{ myCount }}</p>\n        <counter-child-component [count]=\"myCount\" (myChildEvent)=\"parentEvent($event)\"></counter-child-component>\n    </div>\n    "
+        })
+    ], CounterParentComponent);
+    return CounterParentComponent;
+}());
+
+//# sourceMappingURL=counter-parent.component.js.map
+
+/***/ }),
+/* 843 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CounterChildComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CounterChildComponent = (function () {
+    function CounterChildComponent() {
+        this.myChildEvent = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+    }
+    CounterChildComponent.prototype.childOutput = function () {
+        this.count++;
+        this.myChildEvent.emit(this.count);
+    };
+    CounterChildComponent.prototype.grandChildOutput = function (count) {
+        this.count = 15;
+        this.myChildEvent.emit(this.count);
+        console.log('Event fired from Grand Child');
+    };
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */](),
+        __metadata("design:type", Number)
+    ], CounterChildComponent.prototype, "count", void 0);
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */](),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */])
+    ], CounterChildComponent.prototype, "myChildEvent", void 0);
+    CounterChildComponent = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'counter-child-component',
+            template: "\n        <div style=\"padding: 1em; margin: 1em; border: 1px solid blue\">\n            <h3>Child Component</h3>\n            <p>Counter Child Component {{count}}</p>\n            <a href=\"javascript:void(0);\" (click)=\"childOutput(count)\">Click Here</a>\n\n            <grand-child-component [count]=\"count\" (myGrandChildEvent)=\"grandChildOutput($event)\"></grand-child-component>\n        </div>\n    "
+        })
+    ], CounterChildComponent);
+    return CounterChildComponent;
+}());
+
+//# sourceMappingURL=counter-child.component.js.map
+
+/***/ }),
+/* 844 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GrandChildComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var GrandChildComponent = (function () {
+    function GrandChildComponent() {
+        this.myGrandChildEvent = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+    }
+    GrandChildComponent.prototype.grandChildEvent = function () {
+        this.myGrandChildEvent.emit();
+    };
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */](),
+        __metadata("design:type", Number)
+    ], GrandChildComponent.prototype, "count", void 0);
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */](),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */])
+    ], GrandChildComponent.prototype, "myGrandChildEvent", void 0);
+    GrandChildComponent = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'grand-child-component',
+            template: "\n        <div style=\"padding: 1em; margin: 1em; border: 1px solid green\">\n            <h3>Grand Child Component {{count}}</h3>\n            <a href=\"javascript:void(0);\" (click)=\"grandChildEvent()\">Grand child Click</a>\n        </div>\n    "
+        })
+    ], GrandChildComponent);
+    return GrandChildComponent;
+}());
+
+//# sourceMappingURL=counter-grandchild.component.js.map
 
 /***/ })
 ],[207]);

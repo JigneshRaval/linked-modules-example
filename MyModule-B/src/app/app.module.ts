@@ -35,7 +35,23 @@ import { MyMainModule } from 'MyModule-A';
 //===================================================
 import { BootstrapGrowlModule } from "MyModule-A";
 
+import { SwappingModuleDemo } from 'MyModule-A';
+
 import { NgLoggerModule, Level } from '@nsalaun/ng-logger';
+
+
+// Directive Examples
+// Directives
+import { HighlightDirective } from 'MyModule-A';
+
+// Data Passing from Parent to child and Child to Parent
+import { ParentComponent } from 'MyModule-A';
+import { ChildComponent } from 'MyModule-A';
+
+// Data Passing from Parent to child to Grand child
+import { CounterParentComponent } from 'MyModule-A';
+import { CounterChildComponent } from 'MyModule-A';
+import { GrandChildComponent } from 'MyModule-A';
 
 @NgModule({
     imports: [
@@ -43,6 +59,7 @@ import { NgLoggerModule, Level } from '@nsalaun/ng-logger';
         BrowserModule,
         BootstrapGrowlModule,
         MyMainModule,
+        SwappingModuleDemo,
         NgLoggerModule.forRoot(Level.LOG)
     ],
     declarations: [
@@ -51,7 +68,10 @@ import { NgLoggerModule, Level } from '@nsalaun/ng-logger';
         MouseWheelDirective, MouseWheelDirectiveExampleComponent,
         HelloWorldComponent, WorldHelloComponent, DynamicComponent, MainDynamicComponent,
         DynamicComponent2, MainDynamicComponent2,
-        DialogComponent, DialogAnchorDirective
+        DialogComponent, DialogAnchorDirective,
+        HighlightDirective,
+        ParentComponent, ChildComponent,
+        CounterParentComponent, CounterChildComponent, GrandChildComponent
     ],
     providers: [
         DynamicComp2Service

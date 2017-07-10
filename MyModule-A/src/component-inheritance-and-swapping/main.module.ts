@@ -9,12 +9,22 @@ import { MainEmployeeComponent } from './main.component';
     imports: [
         CommonModule
     ],
-    declarations: [MainEmployeeComponent, BaseEmployeeComponent, EmployeeListComponent, EmployeeTableComponent],
-    exports: [MainEmployeeComponent, BaseEmployeeComponent, EmployeeListComponent, EmployeeTableComponent],
+    declarations: [
+        MainEmployeeComponent,
+        BaseEmployeeComponent,
+        EmployeeListComponent,
+        EmployeeTableComponent
+    ],
+    exports: [
+        MainEmployeeComponent,
+        BaseEmployeeComponent,
+        EmployeeListComponent,
+        EmployeeTableComponent
+    ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA]
 })
 export class SwappingModuleDemo {
-    public static logAndLoadModule(message) {
+    /*public static logAndLoadModule(message) {
         console.log('I first log and then give you my module');
         return {
             ngModule: SwappingModuleDemo
@@ -25,5 +35,5 @@ export class SwappingModuleDemo {
         return {
             ngModule: SwappingModuleDemo
         }
-    }
+    }*/
 }
