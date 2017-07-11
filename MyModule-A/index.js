@@ -24,4 +24,6 @@ export { ChildComponent } from './src/data-passing-1/child.component';
 export { CounterParentComponent } from './src/data-passing-2/counter-parent.component';
 export { CounterChildComponent } from './src/data-passing-2/counter-child.component';
 export { GrandChildComponent } from './src/data-passing-2/counter-grandchild.component';
+export { DynamicComponent3Service } from './src/dynamic-component3/dynamic-comp3.service';
+export { DynamicComponent3 } from './src/dynamic-component3/dynamic-comp3.component';
 //# sourceMappingURL=index.js.map

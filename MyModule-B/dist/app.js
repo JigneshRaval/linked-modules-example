@@ -1162,13 +1162,12 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 /***/ }),
 /* 22 */,
 /* 23 */,
-/* 24 */,
-/* 25 */
+/* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_index__ = __webpack_require__(218);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_mycomponent_component__ = __webpack_require__(140);
 /* unused harmony reexport MyComponent */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_growl_notifications__ = __webpack_require__(219);
@@ -1176,11 +1175,11 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__src_growl_notifications__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_growl_notifications__["c"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_component_inheritance_and_swapping__ = __webpack_require__(502);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_3__src_component_inheritance_and_swapping__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_3__src_component_inheritance_and_swapping__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_directives_example_1_highlight_directive__ = __webpack_require__(504);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_4__src_directives_example_1_highlight_directive__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_4__src_directives_example_1_highlight_directive__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_data_passing_1_parent_component__ = __webpack_require__(505);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_5__src_data_passing_1_parent_component__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_5__src_data_passing_1_parent_component__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_data_passing_1_child_component__ = __webpack_require__(506);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_6__src_data_passing_1_child_component__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_data_passing_2_counter_parent_component__ = __webpack_require__(507);
@@ -1188,7 +1187,11 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_data_passing_2_counter_child_component__ = __webpack_require__(508);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_8__src_data_passing_2_counter_child_component__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_data_passing_2_counter_grandchild_component__ = __webpack_require__(509);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_9__src_data_passing_2_counter_grandchild_component__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_9__src_data_passing_2_counter_grandchild_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_dynamic_component3_dynamic_comp3_service__ = __webpack_require__(510);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_10__src_dynamic_component3_dynamic_comp3_service__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_dynamic_component3_dynamic_comp3_component__ = __webpack_require__(511);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_11__src_dynamic_component3_dynamic_comp3_component__["a"]; });
 /**
  * @license
  * Copyright Noémi Salaün All Rights Reserved.
@@ -1215,9 +1218,12 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 
 
 
+
+
 //# sourceMappingURL=index.js.map
 
 /***/ }),
+/* 25 */,
 /* 26 */,
 /* 27 */,
 /* 28 */,
@@ -7044,17 +7050,17 @@ __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformB
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__example_directive_mouse_events_mousewheel_directive__ = __webpack_require__(510);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__example_directive_mouse_events_mousewheel_component__ = __webpack_require__(511);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__example_directive_mouse_events_mousewheel_directive__ = __webpack_require__(512);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__example_directive_mouse_events_mousewheel_component__ = __webpack_require__(513);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__example_dynamic_component_hello_world_component__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__example_dynamic_component_world_hello_component__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__example_dynamic_component_dynamic_component__ = __webpack_require__(512);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__example_dynamic_component_dynamic_component_main__ = __webpack_require__(513);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__ = __webpack_require__(514);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__example_dynamic_component_dynamic_component__ = __webpack_require__(514);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__example_dynamic_component_dynamic_component_main__ = __webpack_require__(515);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__ = __webpack_require__(516);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__dynamic_component2_dynamic_component2_service__ = __webpack_require__(176);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__dynamic_dialog_component_dialog_anchor_directive__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__dynamic_dialog_component_dialog_component__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_MyModule_A__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_MyModule_A__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__nsalaun_ng_logger__ = __webpack_require__(138);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -7102,6 +7108,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var AppModule = (function () {
     function AppModule() {
     }
@@ -7111,8 +7118,8 @@ var AppModule = (function () {
                 // Imports Metadata tells the angular list of other modules used by this module.
                 __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["b" /* BootstrapGrowlModule */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["i" /* MyMainModule */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["k" /* SwappingModuleDemo */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["k" /* MyMainModule */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["m" /* SwappingModuleDemo */],
                 __WEBPACK_IMPORTED_MODULE_14__nsalaun_ng_logger__["c" /* NgLoggerModule */].forRoot(__WEBPACK_IMPORTED_MODULE_14__nsalaun_ng_logger__["a" /* Level */].LOG)
             ],
             declarations: [
@@ -7122,14 +7129,16 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_5__example_dynamic_component_hello_world_component__["a" /* default */], __WEBPACK_IMPORTED_MODULE_6__example_dynamic_component_world_hello_component__["a" /* default */], __WEBPACK_IMPORTED_MODULE_7__example_dynamic_component_dynamic_component__["a" /* default */], __WEBPACK_IMPORTED_MODULE_8__example_dynamic_component_dynamic_component_main__["a" /* default */],
                 __WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__["a" /* DynamicComponent2 */], __WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__["b" /* MainDynamicComponent2 */],
                 __WEBPACK_IMPORTED_MODULE_12__dynamic_dialog_component_dialog_component__["a" /* DialogComponent */], __WEBPACK_IMPORTED_MODULE_11__dynamic_dialog_component_dialog_anchor_directive__["a" /* DialogAnchorDirective */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["h" /* HighlightDirective */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["j" /* ParentComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["d" /* ChildComponent */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["f" /* CounterParentComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["e" /* CounterChildComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["g" /* GrandChildComponent */]
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["j" /* HighlightDirective */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["l" /* ParentComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["d" /* ChildComponent */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["f" /* CounterParentComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["e" /* CounterChildComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["i" /* GrandChildComponent */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["g" /* DynamicComponent3 */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_10__dynamic_component2_dynamic_component2_service__["a" /* DynamicComp2Service */]
+                __WEBPACK_IMPORTED_MODULE_10__dynamic_component2_dynamic_component2_service__["a" /* DynamicComp2Service */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["h" /* DynamicComponent3Service */]
             ],
-            entryComponents: [__WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__["a" /* DynamicComponent2 */]],
+            entryComponents: [__WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__["a" /* DynamicComponent2 */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["g" /* DynamicComponent3 */]],
             bootstrap: [
                 // Bootstrap Metadata identifies the root component of the module.
                 // When Angular loads the appModule it looks for bootstrap Metadata and loads all the components listed here.
@@ -7153,7 +7162,7 @@ var AppModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dynamic_dialog_component_dialog_component__ = __webpack_require__(136);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dynamic_dialog_component_dialog_anchor_directive__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nsalaun_ng_logger__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_MyModule_A__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_MyModule_A__ = __webpack_require__(24);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7169,10 +7178,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 // Example of linked "ng-logger" example
 
 
+
 var AppComponent = (function () {
-    function AppComponent(bootstrapGrowlService, logger) {
+    function AppComponent(bootstrapGrowlService, logger, dynamicComponent3Service) {
         this.bootstrapGrowlService = bootstrapGrowlService;
         this.logger = logger;
+        this.dynamicComponent3Service = dynamicComponent3Service;
         this.bgColor = 'blue';
         this.textColor = 'white';
         this.logger.log('Hello !', "It's working :)");
@@ -7186,6 +7197,9 @@ var AppComponent = (function () {
         this.bootstrapGrowlService.addAlert("any custom message 222", __WEBPACK_IMPORTED_MODULE_4_MyModule_A__["a" /* BootstrapAlertTypes */].WARNING);
         this.bootstrapGrowlService.addAlert("any custom message 888", __WEBPACK_IMPORTED_MODULE_4_MyModule_A__["a" /* BootstrapAlertTypes */].DANGER, false);
     };
+    AppComponent.prototype.addToBody = function () {
+        this.dynamicComponent3Service.appendComponentToBody(__WEBPACK_IMPORTED_MODULE_4_MyModule_A__["g" /* DynamicComponent3 */]);
+    };
     __decorate([
         __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */](__WEBPACK_IMPORTED_MODULE_2__dynamic_dialog_component_dialog_anchor_directive__["a" /* DialogAnchorDirective */]),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__dynamic_dialog_component_dialog_anchor_directive__["a" /* DialogAnchorDirective */])
@@ -7193,11 +7207,11 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
             selector: 'my-app',
-            template: "\n\t\t<div class=\"container\">\n\t\t\t<p>Hello Angular 4</p>\n\n\t\t\t<mousewheel-directive-example-component></mousewheel-directive-example-component>\n\n\t\t\t<dynamic-component-main></dynamic-component-main>\n\n\t\t\t<dynamic-component-main2></dynamic-component-main2>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<h3>Bootstrap Growl Notifications</h3>\n\t\t\t\t<bootstrap-growl [alertCount]=\"3\" [autoClose]=\"10000\"></bootstrap-growl>\n\t\t\t\t<button (click)=\"addGrowlAlert()\">Test</button>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<h4>Dynamic Dialog box Example</h4>\n\t\t\t\t<div dialogAnchor></div>\n\t\t\t\t<button class=\"open-button\" (click)='openDialogBox()'>Open dialog box</button>\n\t\t\t</div>\n\n\t\t\t<my-component></my-component>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Parent child data passing example -->\n\t\t\t\t<!-- Data passing 1 -->\n\t\t\t\t<parent-component-1></parent-component-1>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Data passing 2 -->\n\t\t\t\t<counter-parent-component></counter-parent-component>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Component Inheritance and Component Swapping -->\n\t\t\t\t<h3>Component Inheritance and Component Swapping</h3>\n\t\t\t\t<app-main-employee></app-main-employee>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Directive Example -->\n\t\t\t\t<h3>Directives</h3>\n\t\t\t\t<!-- hightlight.directive.ts -->\n\t\t\t\t<p myHighlight [highlightBgColor]=\"bgColor\"   [highlightTextColor]=\"textColor\">Dynamic Highlight Directive</p>\n\t\t\t\t<pre>&lt;p myHighlight [highlightBgColor]=\"bgColor\" [highlightTextColor]=\"textColor\">Dynamic Highlight Directive&lt;/p></pre>\n\n\t\t\t\t<p myHighlight highlightBgColor=\"yellow\"      highlightTextColor=\"black\">Highlighted in yellow Directive</p>\n\t\t\t\t<pre>&lt;p myHighlight highlightBgColor=\"yellow\" highlightTextColor=\"black\">Highlighted in yellow Directive&lt;/p></pre>\n\n\t\t\t\t<p myHighlight [highlightBgColor]=\"'orange'\"  [highlightTextColor]=\"'white'\">Highlighted in orange Directive</p>\n\t\t\t</div>\n\n\t\t</div>\n    ",
+            template: "\n\t\t<div class=\"container\">\n\t\t\t<p>Hello Angular 4</p>\n\n\t\t\t<mousewheel-directive-example-component></mousewheel-directive-example-component>\n\n\t\t\t<dynamic-component-main></dynamic-component-main>\n\n\t\t\t<dynamic-component-main2></dynamic-component-main2>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<h3>Bootstrap Growl Notifications</h3>\n\t\t\t\t<bootstrap-growl [alertCount]=\"3\" [autoClose]=\"10000\"></bootstrap-growl>\n\t\t\t\t<button (click)=\"addGrowlAlert()\">Test</button>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<h4>Dynamic Dialog box Example</h4>\n\t\t\t\t<div dialogAnchor></div>\n\t\t\t\t<button class=\"open-button\" (click)='openDialogBox()'>Open dialog box</button>\n\t\t\t</div>\n\n\t\t\t<my-component></my-component>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Parent child data passing example -->\n\t\t\t\t<!-- Data passing 1 -->\n\t\t\t\t<parent-component-1></parent-component-1>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Data passing 2 -->\n\t\t\t\t<counter-parent-component></counter-parent-component>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Component Inheritance and Component Swapping -->\n\t\t\t\t<h3>Component Inheritance and Component Swapping</h3>\n\t\t\t\t<app-main-employee></app-main-employee>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Directive Example -->\n\t\t\t\t<h3>Directives</h3>\n\t\t\t\t<!-- hightlight.directive.ts -->\n\t\t\t\t<p myHighlight [highlightBgColor]=\"bgColor\" [highlightTextColor]=\"textColor\">Dynamic Highlight Directive</p>\n\t\t\t\t<pre>&lt;p myHighlight [highlightBgColor]=\"bgColor\" [highlightTextColor]=\"textColor\">Dynamic Highlight Directive&lt;/p></pre>\n\n\t\t\t\t<p myHighlight highlightBgColor=\"yellow\" highlightTextColor=\"black\">Highlighted in yellow Directive</p>\n\t\t\t\t<pre>&lt;p myHighlight highlightBgColor=\"yellow\" highlightTextColor=\"black\">Highlighted in yellow Directive&lt;/p></pre>\n\n\t\t\t\t<p myHighlight [highlightBgColor]=\"'orange'\" [highlightTextColor]=\"'white'\">Highlighted in orange Directive</p>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<h3>Dynamic Component Example 3</h3>\n\t\t\t\t<p>Component will be added and removed dynamically into body</p>\n\t\t\t\t<button (click)=\"addToBody()\">Add Dynamic Component 3</button>\n\t\t\t</div>\n\n\t\t</div>\n    ",
             styleUrls: [],
             entryComponents: [__WEBPACK_IMPORTED_MODULE_1__dynamic_dialog_component_dialog_component__["a" /* DialogComponent */]]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4_MyModule_A__["c" /* BootstrapGrowlService */], __WEBPACK_IMPORTED_MODULE_3__nsalaun_ng_logger__["b" /* Logger */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4_MyModule_A__["c" /* BootstrapGrowlService */], __WEBPACK_IMPORTED_MODULE_3__nsalaun_ng_logger__["b" /* Logger */], __WEBPACK_IMPORTED_MODULE_4_MyModule_A__["h" /* DynamicComponent3Service */]])
     ], AppComponent);
     return AppComponent;
 }());
@@ -21586,6 +21600,89 @@ var GrandChildComponent = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DynamicComponent3Service; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(4);
+// Dynamic Component 3
+//==================================
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var DynamicComponent3Service = (function () {
+    function DynamicComponent3Service(componentFactoryResolver, appRef, injector) {
+        this.componentFactoryResolver = componentFactoryResolver;
+        this.appRef = appRef;
+        this.injector = injector;
+    }
+    DynamicComponent3Service.prototype.appendComponentToBody = function (component) {
+        var _this = this;
+        // Create a component ref from component
+        var componentRef = this.componentFactoryResolver.resolveComponentFactory(component).create(this.injector);
+        // Attach component to the appRef so that it's inside the ng component tree
+        this.appRef.attachView(componentRef.hostView);
+        // Get DOM element from component
+        var domElem = componentRef.hostView
+            .rootNodes[0];
+        // Append DOM element to the body
+        document.body.appendChild(domElem);
+        // Wait some time and remove it from the component tree and from the DOM
+        setTimeout(function () {
+            _this.appRef.detachView(componentRef.hostView);
+            componentRef.destroy();
+        }, 6000);
+    };
+    DynamicComponent3Service = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */](),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ComponentFactoryResolver */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* ApplicationRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Injector */]])
+    ], DynamicComponent3Service);
+    return DynamicComponent3Service;
+}());
+
+//# sourceMappingURL=dynamic-comp3.service.js.map
+
+/***/ }),
+/* 511 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DynamicComponent3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(4);
+// Dynamic Component 3
+//==================================
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var DynamicComponent3 = (function () {
+    function DynamicComponent3() {
+    }
+    DynamicComponent3 = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'app-dynamic-component3',
+            template: "\n\t\t<div class=\"\" style=\"position: fixed; top: 50%;left: 50%;border: 1px solid #000;padding: 1em; background: #FFF;\">\n\t\t\t<h4>Dynamic Content example 3</h4>\n\t\t\t<p>This is dynamic component example</p>\n\t\t</div>\n\t"
+        })
+    ], DynamicComponent3);
+    return DynamicComponent3;
+}());
+
+// REF : https://medium.com/@caroso1222/angular-pro-tip-how-to-dynamically-create-components-in-body-ba200cc289e6
+// Plunker : https://plnkr.co/edit/Yc1ijM6shHt2JAPi7Fdg?p=preview
+//# sourceMappingURL=dynamic-comp3.component.js.map
+
+/***/ }),
+/* 512 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MouseWheelDirective; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(4);
 // Tutorial Soruce : http://blog.sodhanalibrary.com/2016/10/angular-2-directive-for-mouse-wheel.html#.WS12HeuGOUk
@@ -21669,7 +21766,7 @@ var MouseWheelDirective = (function () {
 
 
 /***/ }),
-/* 511 */
+/* 513 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21707,7 +21804,7 @@ var MouseWheelDirectiveExampleComponent = (function () {
 
 
 /***/ }),
-/* 512 */
+/* 514 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21781,7 +21878,7 @@ var DynamicComponent = (function () {
 
 
 /***/ }),
-/* 513 */
+/* 515 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21829,7 +21926,7 @@ var MainDynamicComponent = (function () {
 
 
 /***/ }),
-/* 514 */
+/* 516 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

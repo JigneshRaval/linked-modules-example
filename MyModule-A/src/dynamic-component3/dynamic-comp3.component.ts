@@ -5,7 +5,12 @@ import { Component } from '@angular/core';
 
 @Component({
 	selector: 'app-dynamic-component3',
-	template: '<h4>Dynamic Content example 3</h4>'
+	template: `
+		<div class="" style="position: fixed; top: 50%;left: 50%;border: 1px solid #000;padding: 1em; background: #FFF;">
+			<h4>Dynamic Content example 3</h4>
+			<p>This is dynamic component example</p>
+		</div>
+	`
 })
 export class DynamicComponent3 {
 

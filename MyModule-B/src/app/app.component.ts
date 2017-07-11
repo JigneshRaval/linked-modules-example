@@ -11,6 +11,8 @@ import { MyComponent } from 'MyModule-A';
 
 import { BootstrapGrowlService, BootstrapAlertTypes } from 'MyModule-A';
 
+import { DynamicComponent3Service, DynamicComponent3 } from 'MyModule-A';
+
 @Component({
 	selector: 'my-app',
 	template: `
@@ -58,13 +60,19 @@ import { BootstrapGrowlService, BootstrapAlertTypes } from 'MyModule-A';
 				<!-- Directive Example -->
 				<h3>Directives</h3>
 				<!-- hightlight.directive.ts -->
-				<p myHighlight [highlightBgColor]="bgColor"   [highlightTextColor]="textColor">Dynamic Highlight Directive</p>
+				<p myHighlight [highlightBgColor]="bgColor" [highlightTextColor]="textColor">Dynamic Highlight Directive</p>
 				<pre>&lt;p myHighlight [highlightBgColor]="bgColor" [highlightTextColor]="textColor">Dynamic Highlight Directive&lt;/p></pre>
 
-				<p myHighlight highlightBgColor="yellow"      highlightTextColor="black">Highlighted in yellow Directive</p>
+				<p myHighlight highlightBgColor="yellow" highlightTextColor="black">Highlighted in yellow Directive</p>
 				<pre>&lt;p myHighlight highlightBgColor="yellow" highlightTextColor="black">Highlighted in yellow Directive&lt;/p></pre>
 
-				<p myHighlight [highlightBgColor]="'orange'"  [highlightTextColor]="'white'">Highlighted in orange Directive</p>
+				<p myHighlight [highlightBgColor]="'orange'" [highlightTextColor]="'white'">Highlighted in orange Directive</p>
+			</div>
+
+			<div class="example-section">
+				<h3>Dynamic Component Example 3</h3>
+				<p>Component will be added and removed dynamically into body</p>
+				<button (click)="addToBody()">Add Dynamic Component 3</button>
 			</div>
 
 		</div>
@@ -76,7 +84,7 @@ export class AppComponent {
 	bgColor: string = 'blue';
 	textColor: string = 'white';
 
-	constructor(private bootstrapGrowlService: BootstrapGrowlService, private logger: Logger) {
+	constructor(private bootstrapGrowlService: BootstrapGrowlService, private logger: Logger, private dynamicComponent3Service: DynamicComponent3Service) {
 
 		this.logger.log('Hello !', "It's working :)");
 
@@ -93,5 +101,9 @@ export class AppComponent {
 		this.bootstrapGrowlService.addAlert("any custom message 456 <b>with</b> HTML", BootstrapAlertTypes.INFO);
 		this.bootstrapGrowlService.addAlert("any custom message 222", BootstrapAlertTypes.WARNING);
 		this.bootstrapGrowlService.addAlert("any custom message 888", BootstrapAlertTypes.DANGER, false);
+	}
+
+	addToBody() {
+		this.dynamicComponent3Service.appendComponentToBody(DynamicComponent3);
 	}
 }

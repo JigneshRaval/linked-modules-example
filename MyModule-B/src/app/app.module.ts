@@ -53,6 +53,8 @@ import { CounterParentComponent } from 'MyModule-A';
 import { CounterChildComponent } from 'MyModule-A';
 import { GrandChildComponent } from 'MyModule-A';
 
+import { DynamicComponent3Service, DynamicComponent3 } from 'MyModule-A';
+
 @NgModule({
     imports: [
         // Imports Metadata tells the angular list of other modules used by this module.
@@ -71,12 +73,14 @@ import { GrandChildComponent } from 'MyModule-A';
         DialogComponent, DialogAnchorDirective,
         HighlightDirective,
         ParentComponent, ChildComponent,
-        CounterParentComponent, CounterChildComponent, GrandChildComponent
+        CounterParentComponent, CounterChildComponent, GrandChildComponent,
+        DynamicComponent3
     ],
     providers: [
-        DynamicComp2Service
+        DynamicComp2Service,
+        DynamicComponent3Service
     ],
-    entryComponents: [DynamicComponent2],
+    entryComponents: [DynamicComponent2, DynamicComponent3],
     bootstrap: [
         // Bootstrap Metadata identifies the root component of the module.
         // When Angular loads the appModule it looks for bootstrap Metadata and loads all the components listed here.
