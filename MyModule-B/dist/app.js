@@ -22390,7 +22390,7 @@ var DynamicComp4Main = (function () {
     DynamicComp4Main = __decorate([
         __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
             selector: 'dynamic-comp4-main',
-            template: "\n        <ng-template #dynamicAlertContainer></ng-template>\n        <button (click)=\"createComponent('success', [{'title': 'This is title 1'}, {'title': 'This is title 2'}])\">Create success alert</button>\n        <button (click)=\"createComponent('danger')\">Create danger alert</button>\n    ",
+            template: "\n        <ng-template #dynamicAlertContainer></ng-template>\n        <button (click)=\"createComponent('success', [{'title': 'This is title 1'}, {'title': 'This is title 2'}])\">Create success alert</button>\n        <button (click)=\"createComponent('danger', [{'title': 'This is title 3'}, {'title': 'This is title 4'}])\">Create danger alert</button>\n    ",
             entryComponents: [__WEBPACK_IMPORTED_MODULE_1__dynamic_comp4_component__["a" /* DynamicComp4Alert */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ComponentFactoryResolver */]])

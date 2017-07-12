@@ -6,7 +6,7 @@ import { DynamicComp4Alert } from './dynamic-comp4.component';
     template: `
         <ng-template #dynamicAlertContainer></ng-template>
         <button (click)="createComponent('success', [{'title': 'This is title 1'}, {'title': 'This is title 2'}])">Create success alert</button>
-        <button (click)="createComponent('danger')">Create danger alert</button>
+        <button (click)="createComponent('danger', [{'title': 'This is title 3'}, {'title': 'This is title 4'}])">Create danger alert</button>
     `,
     entryComponents: [DynamicComp4Alert]
 })
