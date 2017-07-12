@@ -55,6 +55,8 @@ import { GrandChildComponent } from 'MyModule-A';
 
 import { DynamicComponent3Service, DynamicComponent3 } from 'MyModule-A';
 
+import { DynamicComp4Main, DynamicComp4Alert } from 'MyModule-A';
+
 @NgModule({
     imports: [
         // Imports Metadata tells the angular list of other modules used by this module.
@@ -74,7 +76,8 @@ import { DynamicComponent3Service, DynamicComponent3 } from 'MyModule-A';
         HighlightDirective,
         ParentComponent, ChildComponent,
         CounterParentComponent, CounterChildComponent, GrandChildComponent,
-        DynamicComponent3
+        DynamicComponent3,
+        DynamicComp4Main, DynamicComp4Alert
     ],
     providers: [
         DynamicComp2Service,

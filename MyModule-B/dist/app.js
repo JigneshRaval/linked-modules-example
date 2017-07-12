@@ -1167,7 +1167,7 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_index__ = __webpack_require__(218);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_0__src_index__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_mycomponent_component__ = __webpack_require__(140);
 /* unused harmony reexport MyComponent */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_growl_notifications__ = __webpack_require__(219);
@@ -1175,11 +1175,11 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__src_growl_notifications__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_growl_notifications__["c"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_component_inheritance_and_swapping__ = __webpack_require__(502);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_3__src_component_inheritance_and_swapping__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_3__src_component_inheritance_and_swapping__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_directives_example_1_highlight_directive__ = __webpack_require__(504);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_4__src_directives_example_1_highlight_directive__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_4__src_directives_example_1_highlight_directive__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_data_passing_1_parent_component__ = __webpack_require__(505);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_5__src_data_passing_1_parent_component__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_5__src_data_passing_1_parent_component__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_data_passing_1_child_component__ = __webpack_require__(506);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_6__src_data_passing_1_child_component__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_data_passing_2_counter_parent_component__ = __webpack_require__(507);
@@ -1187,11 +1187,15 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_data_passing_2_counter_child_component__ = __webpack_require__(508);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_8__src_data_passing_2_counter_child_component__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_data_passing_2_counter_grandchild_component__ = __webpack_require__(509);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_9__src_data_passing_2_counter_grandchild_component__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_9__src_data_passing_2_counter_grandchild_component__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_dynamic_component3_dynamic_comp3_service__ = __webpack_require__(510);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_10__src_dynamic_component3_dynamic_comp3_service__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_10__src_dynamic_component3_dynamic_comp3_service__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_dynamic_component3_dynamic_comp3_component__ = __webpack_require__(511);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_11__src_dynamic_component3_dynamic_comp3_component__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_11__src_dynamic_component3_dynamic_comp3_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_dynamic_component_4_dynamic_comp4_main_component__ = __webpack_require__(848);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_12__src_dynamic_component_4_dynamic_comp4_main_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_dynamic_component_4_dynamic_comp4_component__ = __webpack_require__(847);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_13__src_dynamic_component_4_dynamic_comp4_component__["a"]; });
 /**
  * @license
  * Copyright Noémi Salaün All Rights Reserved.
@@ -1218,6 +1222,9 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 
 
 
+
+
+// Dynamic Component 4 example
 
 
 //# sourceMappingURL=index.js.map
@@ -3684,8 +3691,6 @@ var HelloWorldComponent = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(4);
-// Tutorial SRC : http://blog.rangle.io/dynamically-creating-components-with-angular-2/
-// http://plnkr.co/edit/ZXsIWykqKZi5r75VMtw2?p=preview
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3712,6 +3717,8 @@ var WorldHelloComponent = (function () {
     return WorldHelloComponent;
 }());
 /* harmony default export */ __webpack_exports__["a"] = (WorldHelloComponent);
+// Tutorial SRC : http://blog.rangle.io/dynamically-creating-components-with-angular-2/
+// http://plnkr.co/edit/ZXsIWykqKZi5r75VMtw2?p=preview 
 
 
 /***/ }),
@@ -7109,6 +7116,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var AppModule = (function () {
     function AppModule() {
     }
@@ -7118,8 +7126,8 @@ var AppModule = (function () {
                 // Imports Metadata tells the angular list of other modules used by this module.
                 __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["b" /* BootstrapGrowlModule */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["k" /* MyMainModule */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["m" /* SwappingModuleDemo */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["m" /* MyMainModule */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["o" /* SwappingModuleDemo */],
                 __WEBPACK_IMPORTED_MODULE_14__nsalaun_ng_logger__["c" /* NgLoggerModule */].forRoot(__WEBPACK_IMPORTED_MODULE_14__nsalaun_ng_logger__["a" /* Level */].LOG)
             ],
             declarations: [
@@ -7129,16 +7137,17 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_5__example_dynamic_component_hello_world_component__["a" /* default */], __WEBPACK_IMPORTED_MODULE_6__example_dynamic_component_world_hello_component__["a" /* default */], __WEBPACK_IMPORTED_MODULE_7__example_dynamic_component_dynamic_component__["a" /* default */], __WEBPACK_IMPORTED_MODULE_8__example_dynamic_component_dynamic_component_main__["a" /* default */],
                 __WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__["a" /* DynamicComponent2 */], __WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__["b" /* MainDynamicComponent2 */],
                 __WEBPACK_IMPORTED_MODULE_12__dynamic_dialog_component_dialog_component__["a" /* DialogComponent */], __WEBPACK_IMPORTED_MODULE_11__dynamic_dialog_component_dialog_anchor_directive__["a" /* DialogAnchorDirective */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["j" /* HighlightDirective */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["l" /* ParentComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["d" /* ChildComponent */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["f" /* CounterParentComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["e" /* CounterChildComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["i" /* GrandChildComponent */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["g" /* DynamicComponent3 */]
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["l" /* HighlightDirective */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["n" /* ParentComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["d" /* ChildComponent */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["f" /* CounterParentComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["e" /* CounterChildComponent */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["k" /* GrandChildComponent */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["i" /* DynamicComponent3 */],
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["h" /* DynamicComp4Main */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["g" /* DynamicComp4Alert */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_10__dynamic_component2_dynamic_component2_service__["a" /* DynamicComp2Service */],
-                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["h" /* DynamicComponent3Service */]
+                __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["j" /* DynamicComponent3Service */]
             ],
-            entryComponents: [__WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__["a" /* DynamicComponent2 */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["g" /* DynamicComponent3 */]],
+            entryComponents: [__WEBPACK_IMPORTED_MODULE_9__dynamic_component2_dynamic_component2_main__["a" /* DynamicComponent2 */], __WEBPACK_IMPORTED_MODULE_13_MyModule_A__["i" /* DynamicComponent3 */]],
             bootstrap: [
                 // Bootstrap Metadata identifies the root component of the module.
                 // When Angular loads the appModule it looks for bootstrap Metadata and loads all the components listed here.
@@ -7198,7 +7207,7 @@ var AppComponent = (function () {
         this.bootstrapGrowlService.addAlert("any custom message 888", __WEBPACK_IMPORTED_MODULE_4_MyModule_A__["a" /* BootstrapAlertTypes */].DANGER, false);
     };
     AppComponent.prototype.addToBody = function () {
-        this.dynamicComponent3Service.appendComponentToBody(__WEBPACK_IMPORTED_MODULE_4_MyModule_A__["g" /* DynamicComponent3 */]);
+        this.dynamicComponent3Service.appendComponentToBody(__WEBPACK_IMPORTED_MODULE_4_MyModule_A__["i" /* DynamicComponent3 */]);
     };
     __decorate([
         __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */](__WEBPACK_IMPORTED_MODULE_2__dynamic_dialog_component_dialog_anchor_directive__["a" /* DialogAnchorDirective */]),
@@ -7207,11 +7216,11 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
             selector: 'my-app',
-            template: "\n\t\t<div class=\"container\">\n\t\t\t<p>Hello Angular 4</p>\n\n\t\t\t<mousewheel-directive-example-component></mousewheel-directive-example-component>\n\n\t\t\t<dynamic-component-main></dynamic-component-main>\n\n\t\t\t<dynamic-component-main2></dynamic-component-main2>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<h3>Bootstrap Growl Notifications</h3>\n\t\t\t\t<bootstrap-growl [alertCount]=\"3\" [autoClose]=\"10000\"></bootstrap-growl>\n\t\t\t\t<button (click)=\"addGrowlAlert()\">Test</button>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<h4>Dynamic Dialog box Example</h4>\n\t\t\t\t<div dialogAnchor></div>\n\t\t\t\t<button class=\"open-button\" (click)='openDialogBox()'>Open dialog box</button>\n\t\t\t</div>\n\n\t\t\t<my-component></my-component>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Parent child data passing example -->\n\t\t\t\t<!-- Data passing 1 -->\n\t\t\t\t<parent-component-1></parent-component-1>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Data passing 2 -->\n\t\t\t\t<counter-parent-component></counter-parent-component>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Component Inheritance and Component Swapping -->\n\t\t\t\t<h3>Component Inheritance and Component Swapping</h3>\n\t\t\t\t<app-main-employee></app-main-employee>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Directive Example -->\n\t\t\t\t<h3>Directives</h3>\n\t\t\t\t<!-- hightlight.directive.ts -->\n\t\t\t\t<p myHighlight [highlightBgColor]=\"bgColor\" [highlightTextColor]=\"textColor\">Dynamic Highlight Directive</p>\n\t\t\t\t<pre>&lt;p myHighlight [highlightBgColor]=\"bgColor\" [highlightTextColor]=\"textColor\">Dynamic Highlight Directive&lt;/p></pre>\n\n\t\t\t\t<p myHighlight highlightBgColor=\"yellow\" highlightTextColor=\"black\">Highlighted in yellow Directive</p>\n\t\t\t\t<pre>&lt;p myHighlight highlightBgColor=\"yellow\" highlightTextColor=\"black\">Highlighted in yellow Directive&lt;/p></pre>\n\n\t\t\t\t<p myHighlight [highlightBgColor]=\"'orange'\" [highlightTextColor]=\"'white'\">Highlighted in orange Directive</p>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<h3>Dynamic Component Example 3</h3>\n\t\t\t\t<p>Component will be added and removed dynamically into body</p>\n\t\t\t\t<button (click)=\"addToBody()\">Add Dynamic Component 3</button>\n\t\t\t</div>\n\n\t\t</div>\n    ",
+            template: "\n\t\t<div class=\"container\">\n\t\t\t<p>Hello Angular 4</p>\n\n\t\t\t<mousewheel-directive-example-component></mousewheel-directive-example-component>\n\n\t\t\t<dynamic-component-main></dynamic-component-main>\n\n\t\t\t<dynamic-component-main2></dynamic-component-main2>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<h3>Bootstrap Growl Notifications</h3>\n\t\t\t\t<bootstrap-growl [alertCount]=\"3\" [autoClose]=\"10000\"></bootstrap-growl>\n\t\t\t\t<button (click)=\"addGrowlAlert()\">Test</button>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<h4>Dynamic Dialog box Example</h4>\n\t\t\t\t<div dialogAnchor></div>\n\t\t\t\t<button class=\"open-button\" (click)='openDialogBox()'>Open dialog box</button>\n\t\t\t</div>\n\n\t\t\t<my-component></my-component>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Parent child data passing example -->\n\t\t\t\t<!-- Data passing 1 -->\n\t\t\t\t<parent-component-1></parent-component-1>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Data passing 2 -->\n\t\t\t\t<counter-parent-component></counter-parent-component>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Component Inheritance and Component Swapping -->\n\t\t\t\t<h3>Component Inheritance and Component Swapping</h3>\n\t\t\t\t<app-main-employee></app-main-employee>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<!-- Directive Example -->\n\t\t\t\t<h3>Directives</h3>\n\t\t\t\t<!-- hightlight.directive.ts -->\n\t\t\t\t<p myHighlight [highlightBgColor]=\"bgColor\" [highlightTextColor]=\"textColor\">Dynamic Highlight Directive</p>\n\t\t\t\t<pre>&lt;p myHighlight [highlightBgColor]=\"bgColor\" [highlightTextColor]=\"textColor\">Dynamic Highlight Directive&lt;/p></pre>\n\n\t\t\t\t<p myHighlight highlightBgColor=\"yellow\" highlightTextColor=\"black\">Highlighted in yellow Directive</p>\n\t\t\t\t<pre>&lt;p myHighlight highlightBgColor=\"yellow\" highlightTextColor=\"black\">Highlighted in yellow Directive&lt;/p></pre>\n\n\t\t\t\t<p myHighlight [highlightBgColor]=\"'orange'\" [highlightTextColor]=\"'white'\">Highlighted in orange Directive</p>\n\t\t\t</div>\n\n\t\t\t<div class=\"example-section\">\n\t\t\t\t<h3>Dynamic Component Example 3</h3>\n\t\t\t\t<p>Component will be added and removed dynamically into body</p>\n\t\t\t\t<button (click)=\"addToBody()\">Add Dynamic Component 3</button>\n\t\t\t</div>\n\n\t\t\t<dynamic-comp4-main></dynamic-comp4-main>\n\t\t</div>\n    ",
             styleUrls: [],
             entryComponents: [__WEBPACK_IMPORTED_MODULE_1__dynamic_dialog_component_dialog_component__["a" /* DialogComponent */]]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4_MyModule_A__["c" /* BootstrapGrowlService */], __WEBPACK_IMPORTED_MODULE_3__nsalaun_ng_logger__["b" /* Logger */], __WEBPACK_IMPORTED_MODULE_4_MyModule_A__["h" /* DynamicComponent3Service */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4_MyModule_A__["c" /* BootstrapGrowlService */], __WEBPACK_IMPORTED_MODULE_3__nsalaun_ng_logger__["b" /* Logger */], __WEBPACK_IMPORTED_MODULE_4_MyModule_A__["j" /* DynamicComponent3Service */]])
     ], AppComponent);
     return AppComponent;
 }());
@@ -21622,6 +21631,7 @@ var DynamicComponent3Service = (function () {
     }
     DynamicComponent3Service.prototype.appendComponentToBody = function (component) {
         var _this = this;
+        console.log("App Ref:", this.appRef);
         // Create a component ref from component
         var componentRef = this.componentFactoryResolver.resolveComponentFactory(component).create(this.injector);
         // Attach component to the appRef so that it's inside the ng component tree
@@ -21875,6 +21885,8 @@ var DynamicComponent = (function () {
     return DynamicComponent;
 }());
 /* harmony default export */ __webpack_exports__["a"] = (DynamicComponent);
+// Tutorial SRC : http://blog.rangle.io/dynamically-creating-components-with-angular-2/
+// http://plnkr.co/edit/ZXsIWykqKZi5r75VMtw2?p=preview 
 
 
 /***/ }),
@@ -21923,6 +21935,8 @@ var MainDynamicComponent = (function () {
     return MainDynamicComponent;
 }());
 /* harmony default export */ __webpack_exports__["a"] = (MainDynamicComponent);
+// Tutorial SRC : http://blog.rangle.io/dynamically-creating-components-with-angular-2/
+// http://plnkr.co/edit/ZXsIWykqKZi5r75VMtw2?p=preview 
 
 
 /***/ }),
@@ -21963,6 +21977,432 @@ var MainDynamicComponent2 = (function () {
 
 
 
+
+/***/ }),
+/* 517 */,
+/* 518 */,
+/* 519 */,
+/* 520 */,
+/* 521 */,
+/* 522 */,
+/* 523 */,
+/* 524 */,
+/* 525 */,
+/* 526 */,
+/* 527 */,
+/* 528 */,
+/* 529 */,
+/* 530 */,
+/* 531 */,
+/* 532 */,
+/* 533 */,
+/* 534 */,
+/* 535 */,
+/* 536 */,
+/* 537 */,
+/* 538 */,
+/* 539 */,
+/* 540 */,
+/* 541 */,
+/* 542 */,
+/* 543 */,
+/* 544 */,
+/* 545 */,
+/* 546 */,
+/* 547 */,
+/* 548 */,
+/* 549 */,
+/* 550 */,
+/* 551 */,
+/* 552 */,
+/* 553 */,
+/* 554 */,
+/* 555 */,
+/* 556 */,
+/* 557 */,
+/* 558 */,
+/* 559 */,
+/* 560 */,
+/* 561 */,
+/* 562 */,
+/* 563 */,
+/* 564 */,
+/* 565 */,
+/* 566 */,
+/* 567 */,
+/* 568 */,
+/* 569 */,
+/* 570 */,
+/* 571 */,
+/* 572 */,
+/* 573 */,
+/* 574 */,
+/* 575 */,
+/* 576 */,
+/* 577 */,
+/* 578 */,
+/* 579 */,
+/* 580 */,
+/* 581 */,
+/* 582 */,
+/* 583 */,
+/* 584 */,
+/* 585 */,
+/* 586 */,
+/* 587 */,
+/* 588 */,
+/* 589 */,
+/* 590 */,
+/* 591 */,
+/* 592 */,
+/* 593 */,
+/* 594 */,
+/* 595 */,
+/* 596 */,
+/* 597 */,
+/* 598 */,
+/* 599 */,
+/* 600 */,
+/* 601 */,
+/* 602 */,
+/* 603 */,
+/* 604 */,
+/* 605 */,
+/* 606 */,
+/* 607 */,
+/* 608 */,
+/* 609 */,
+/* 610 */,
+/* 611 */,
+/* 612 */,
+/* 613 */,
+/* 614 */,
+/* 615 */,
+/* 616 */,
+/* 617 */,
+/* 618 */,
+/* 619 */,
+/* 620 */,
+/* 621 */,
+/* 622 */,
+/* 623 */,
+/* 624 */,
+/* 625 */,
+/* 626 */,
+/* 627 */,
+/* 628 */,
+/* 629 */,
+/* 630 */,
+/* 631 */,
+/* 632 */,
+/* 633 */,
+/* 634 */,
+/* 635 */,
+/* 636 */,
+/* 637 */,
+/* 638 */,
+/* 639 */,
+/* 640 */,
+/* 641 */,
+/* 642 */,
+/* 643 */,
+/* 644 */,
+/* 645 */,
+/* 646 */,
+/* 647 */,
+/* 648 */,
+/* 649 */,
+/* 650 */,
+/* 651 */,
+/* 652 */,
+/* 653 */,
+/* 654 */,
+/* 655 */,
+/* 656 */,
+/* 657 */,
+/* 658 */,
+/* 659 */,
+/* 660 */,
+/* 661 */,
+/* 662 */,
+/* 663 */,
+/* 664 */,
+/* 665 */,
+/* 666 */,
+/* 667 */,
+/* 668 */,
+/* 669 */,
+/* 670 */,
+/* 671 */,
+/* 672 */,
+/* 673 */,
+/* 674 */,
+/* 675 */,
+/* 676 */,
+/* 677 */,
+/* 678 */,
+/* 679 */,
+/* 680 */,
+/* 681 */,
+/* 682 */,
+/* 683 */,
+/* 684 */,
+/* 685 */,
+/* 686 */,
+/* 687 */,
+/* 688 */,
+/* 689 */,
+/* 690 */,
+/* 691 */,
+/* 692 */,
+/* 693 */,
+/* 694 */,
+/* 695 */,
+/* 696 */,
+/* 697 */,
+/* 698 */,
+/* 699 */,
+/* 700 */,
+/* 701 */,
+/* 702 */,
+/* 703 */,
+/* 704 */,
+/* 705 */,
+/* 706 */,
+/* 707 */,
+/* 708 */,
+/* 709 */,
+/* 710 */,
+/* 711 */,
+/* 712 */,
+/* 713 */,
+/* 714 */,
+/* 715 */,
+/* 716 */,
+/* 717 */,
+/* 718 */,
+/* 719 */,
+/* 720 */,
+/* 721 */,
+/* 722 */,
+/* 723 */,
+/* 724 */,
+/* 725 */,
+/* 726 */,
+/* 727 */,
+/* 728 */,
+/* 729 */,
+/* 730 */,
+/* 731 */,
+/* 732 */,
+/* 733 */,
+/* 734 */,
+/* 735 */,
+/* 736 */,
+/* 737 */,
+/* 738 */,
+/* 739 */,
+/* 740 */,
+/* 741 */,
+/* 742 */,
+/* 743 */,
+/* 744 */,
+/* 745 */,
+/* 746 */,
+/* 747 */,
+/* 748 */,
+/* 749 */,
+/* 750 */,
+/* 751 */,
+/* 752 */,
+/* 753 */,
+/* 754 */,
+/* 755 */,
+/* 756 */,
+/* 757 */,
+/* 758 */,
+/* 759 */,
+/* 760 */,
+/* 761 */,
+/* 762 */,
+/* 763 */,
+/* 764 */,
+/* 765 */,
+/* 766 */,
+/* 767 */,
+/* 768 */,
+/* 769 */,
+/* 770 */,
+/* 771 */,
+/* 772 */,
+/* 773 */,
+/* 774 */,
+/* 775 */,
+/* 776 */,
+/* 777 */,
+/* 778 */,
+/* 779 */,
+/* 780 */,
+/* 781 */,
+/* 782 */,
+/* 783 */,
+/* 784 */,
+/* 785 */,
+/* 786 */,
+/* 787 */,
+/* 788 */,
+/* 789 */,
+/* 790 */,
+/* 791 */,
+/* 792 */,
+/* 793 */,
+/* 794 */,
+/* 795 */,
+/* 796 */,
+/* 797 */,
+/* 798 */,
+/* 799 */,
+/* 800 */,
+/* 801 */,
+/* 802 */,
+/* 803 */,
+/* 804 */,
+/* 805 */,
+/* 806 */,
+/* 807 */,
+/* 808 */,
+/* 809 */,
+/* 810 */,
+/* 811 */,
+/* 812 */,
+/* 813 */,
+/* 814 */,
+/* 815 */,
+/* 816 */,
+/* 817 */,
+/* 818 */,
+/* 819 */,
+/* 820 */,
+/* 821 */,
+/* 822 */,
+/* 823 */,
+/* 824 */,
+/* 825 */,
+/* 826 */,
+/* 827 */,
+/* 828 */,
+/* 829 */,
+/* 830 */,
+/* 831 */,
+/* 832 */,
+/* 833 */,
+/* 834 */,
+/* 835 */,
+/* 836 */,
+/* 837 */,
+/* 838 */,
+/* 839 */,
+/* 840 */,
+/* 841 */,
+/* 842 */,
+/* 843 */,
+/* 844 */,
+/* 845 */,
+/* 846 */,
+/* 847 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DynamicComp4Alert; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(4);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var DynamicComp4Alert = (function () {
+    function DynamicComp4Alert() {
+        this.type = "success";
+        this.output1 = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+    }
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */](),
+        __metadata("design:type", String)
+    ], DynamicComp4Alert.prototype, "type", void 0);
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */](),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */])
+    ], DynamicComp4Alert.prototype, "output1", void 0);
+    DynamicComp4Alert = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'dynamic-comp4-alert',
+            template: "\n        <h1 (click)=\"output1.next()\">Alert {{type}}</h1>\n        <p *ngFor=\"let content of contents\">{{ content.title }}</p>\n    "
+        })
+    ], DynamicComp4Alert);
+    return DynamicComp4Alert;
+}());
+
+//# sourceMappingURL=dynamic-comp4.component.js.map
+
+/***/ }),
+/* 848 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DynamicComp4Main; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dynamic_comp4_component__ = __webpack_require__(847);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var DynamicComp4Main = (function () {
+    function DynamicComp4Main(componentFactoryResolver) {
+        this.componentFactoryResolver = componentFactoryResolver;
+    }
+    DynamicComp4Main.prototype.createComponent = function (type, contents) {
+        this.container.clear();
+        var factory = this.componentFactoryResolver.resolveComponentFactory(__WEBPACK_IMPORTED_MODULE_1__dynamic_comp4_component__["a" /* DynamicComp4Alert */]);
+        this.componentRef = this.container.createComponent(factory);
+        this.componentRef.instance.type = type;
+        this.componentRef.instance.contents = contents;
+        this.componentRef.instance.output1.subscribe(function (event) { return console.log(event); });
+    };
+    DynamicComp4Main.prototype.ngOnDestory = function () {
+        this.componentRef.destroy();
+    };
+    __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */]('dynamicAlertContainer', { read: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ViewContainerRef */] }),
+        __metadata("design:type", Object)
+    ], DynamicComp4Main.prototype, "container", void 0);
+    DynamicComp4Main = __decorate([
+        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+            selector: 'dynamic-comp4-main',
+            template: "\n        <ng-template #dynamicAlertContainer></ng-template>\n        <button (click)=\"createComponent('success', [{'title': 'This is title 1'}, {'title': 'This is title 2'}])\">Create success alert</button>\n        <button (click)=\"createComponent('danger')\">Create danger alert</button>\n    ",
+            entryComponents: [__WEBPACK_IMPORTED_MODULE_1__dynamic_comp4_component__["a" /* DynamicComp4Alert */]]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ComponentFactoryResolver */]])
+    ], DynamicComp4Main);
+    return DynamicComp4Main;
+}());
+
+// Tutorial Link
+//=========================
+// REF : https://netbasal.com/dynamically-creating-components-with-angular-a7346f4a982d
+// Plunker : https://plnkr.co/edit/VSctCwNMctHIp4WuHLBy?p=preview 
+//# sourceMappingURL=dynamic-comp4-main.component.js.map
 
 /***/ })
 ],[211]);

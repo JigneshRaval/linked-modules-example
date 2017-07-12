@@ -10,6 +10,7 @@ export class DynamicComponent3Service {
 	}
 
 	appendComponentToBody(component: any) {
+		console.log("App Ref:", this.appRef);
 		// Create a component ref from component
 		const componentRef = this.componentFactoryResolver.resolveComponentFactory(component).create(this.injector);
 

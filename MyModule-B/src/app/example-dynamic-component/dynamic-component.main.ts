@@ -34,3 +34,6 @@ export default class MainDynamicComponent {
         };
     }
 }
+
+// Tutorial SRC : http://blog.rangle.io/dynamically-creating-components-with-angular-2/
+// http://plnkr.co/edit/ZXsIWykqKZi5r75VMtw2?p=preview

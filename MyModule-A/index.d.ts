@@ -20,3 +20,5 @@ export { CounterChildComponent } from './src/data-passing-2/counter-child.compon
 export { GrandChildComponent } from './src/data-passing-2/counter-grandchild.component';
 export { DynamicComponent3Service } from './src/dynamic-component3/dynamic-comp3.service';
 export { DynamicComponent3 } from './src/dynamic-component3/dynamic-comp3.component';
+export { DynamicComp4Main } from './src/dynamic-component-4/dynamic-comp4-main.component';
+export { DynamicComp4Alert } from './src/dynamic-component-4/dynamic-comp4.component';

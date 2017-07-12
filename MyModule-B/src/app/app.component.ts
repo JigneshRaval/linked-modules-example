@@ -75,6 +75,7 @@ import { DynamicComponent3Service, DynamicComponent3 } from 'MyModule-A';
 				<button (click)="addToBody()">Add Dynamic Component 3</button>
 			</div>
 
+			<dynamic-comp4-main></dynamic-comp4-main>
 		</div>
     `,
 	styleUrls: [],
