@@ -57,6 +57,8 @@ import { DynamicComponent3Service, DynamicComponent3 } from 'MyModule-A';
 
 import { DynamicComp4Main, DynamicComp4Alert } from 'MyModule-A';
 
+import { ComponentCommunicationMain, Sibling1Component, Sibling2Component } from 'MyModule-A';
+
 @NgModule({
     imports: [
         // Imports Metadata tells the angular list of other modules used by this module.
@@ -77,7 +79,8 @@ import { DynamicComp4Main, DynamicComp4Alert } from 'MyModule-A';
         ParentComponent, ChildComponent,
         CounterParentComponent, CounterChildComponent, GrandChildComponent,
         DynamicComponent3,
-        DynamicComp4Main, DynamicComp4Alert
+        DynamicComp4Main, DynamicComp4Alert,
+        ComponentCommunicationMain, Sibling1Component, Sibling2Component
     ],
     providers: [
         DynamicComp2Service,

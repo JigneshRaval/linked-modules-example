@@ -13,6 +13,8 @@ import { BootstrapGrowlService, BootstrapAlertTypes } from 'MyModule-A';
 
 import { DynamicComponent3Service, DynamicComponent3 } from 'MyModule-A';
 
+//import { ComponentCommunicationSharedService } from 'MyModule-A';
+
 @Component({
 	selector: 'my-app',
 	template: `
@@ -76,10 +78,19 @@ import { DynamicComponent3Service, DynamicComponent3 } from 'MyModule-A';
 			</div>
 
 			<dynamic-comp4-main></dynamic-comp4-main>
+
+			<div class="example-section">
+				<h3>Communication between two sibling components in angular 2</h3>
+				<p><a href="https://github.com/angular/angular.io/issues/2663" target="_blank">https://github.com/angular/angular.io/issues/2663</a></p>
+				<p><a href="https://embed.plnkr.co/P8xCEwSKgcOg07pwDrlO/" target="_blank">https://embed.plnkr.co/P8xCEwSKgcOg07pwDrlO/</a></p>
+				<component-communication-main></component-communication-main>
+			</div>
+
 		</div>
     `,
 	styleUrls: [],
-	entryComponents: [DialogComponent]
+	entryComponents: [DialogComponent],
+	providers: []
 })
 export class AppComponent {
 	bgColor: string = 'blue';
