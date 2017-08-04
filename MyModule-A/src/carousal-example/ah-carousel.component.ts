@@ -1,3 +1,4 @@
+// Source : https://github.com/swieder227/POJS-carousel ( POJS-carousel ) + https://www.sitepoint.com/make-a-simple-javascript-slideshow-without-jquery/
 // DEMO & Example : http://www.cssscript.com/responsive-carousel-slider-in-vanilla-javascript/
 
 /**
