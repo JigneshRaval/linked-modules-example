@@ -37,18 +37,27 @@ import { Component, OnInit, AfterViewInit, AfterViewChecked, ElementRef, Rendere
   `,
   styleUrls: ['./ah-carousel.component.scss']
 })
-export class AhCarouselComponent {
+export class AhCarouselComponent implements OnInit, AfterViewInit {
 
   @Input() value: any[];
-  obj = document.querySelector(obj);
+  obj;
   slide_index;
   slide_length;
   slide_current_obj;
+  playing = false;
+  slideInterval;
 
   constructor(private _el: ElementRef) {
-    this._init();
+
   }
 
+  ngOnInit() {
+    this.obj = this._el.nativeElement.querySelector('.carousel-main--1');
+  }
+
+  ngAfterViewInit() {
+    this._init();
+  }
   _init() {
     // start at [data-slide-index]
     this.slide_index = this.obj.getAttribute("data-slide-index") ? parseInt(this.obj.getAttribute("data-slide-index")) : 0;
@@ -63,7 +72,7 @@ export class AhCarouselComponent {
     this._setupHandlers();
     // add swipe detection
     this._swipeSetup();
-  },
+  }
 
   _setupHandlers() {
 
@@ -86,7 +95,7 @@ export class AhCarouselComponent {
       dots[i].addEventListener("mousedown", function () { self._slideJump(this.getAttribute("data-slide-index")) });
     }
 
-  },
+  }
 
   _updateCurrentSlideDot() {
     // update dots
@@ -99,7 +108,7 @@ export class AhCarouselComponent {
       }
     }
 
-  },
+  }
 
   _updateCurrentSlideObj() {
     // get current slide from DOM
@@ -107,7 +116,7 @@ export class AhCarouselComponent {
 
     // keep dots concurrent with slides
     this._updateCurrentSlideDot();
-  },
+  }
 
   /*
 
@@ -153,7 +162,7 @@ export class AhCarouselComponent {
     // update current slide
     this._updateCurrentSlideObj();
 
-  },
+  }
 
   // slide Carousel one item to _L
   _slideLeft() {
@@ -164,7 +173,7 @@ export class AhCarouselComponent {
       this.slide_index -= 1;
     }
     this._slide("_L");
-  },
+  }
 
   // slide Carousel one item to _R
   _slideRight() {
@@ -175,23 +184,23 @@ export class AhCarouselComponent {
       this.slide_index += 1;
     }
     this._slide("_R");
-  },
+  }
 
   _pauseSlideshow() {
     //pauseButton.innerHTML = '&#9658;'; // play character
-    playing = false;
-    clearInterval(slideInterval);
-  },
+    this.playing = false;
+    clearInterval(this.slideInterval);
+  }
 
   _playSlideshow() {
     var self = this;
     console.log(self);
     //pauseButton.innerHTML = '&#10074;&#10074;'; // pause character
-    playing = true;
-    slideInterval = setInterval(function () {
+    this.playing = true;
+    this.slideInterval = setInterval(function () {
       self._slideRight.call(self);
     }, 2000);
-  },
+  }
 
   // Go directly to slide param:'jumpTo'. Animating in correct direction.
   _slideJump(jumpTo) {
@@ -206,7 +215,7 @@ export class AhCarouselComponent {
       this.slide_index = jumpTo;
       this._slide("_L");
     }
-  },
+  }
 
   /*
 
@@ -251,7 +260,7 @@ export class AhCarouselComponent {
 
       // e.preventDefault()
     }, false)
-  },
+  }
 
   _handleSwipe(dist) {
     if (dist <= 0)
@@ -259,7 +268,7 @@ export class AhCarouselComponent {
     else {
       this._slideLeft();
     }
-  },
+  }
 
 
   /*
@@ -287,3 +296,21 @@ export class AhCarouselComponent {
   }
 
 }
+
+/* 
+	<ah-carousel [value]="cars">
+  </ah-carousel>
+	
+	cars;
+    msgs;
+
+    constructor() {
+        this.msgs = [];
+        this.cars = [
+            {vin: 'Slide_1', year: 2010, brand: 'Audi', color: 'Black', image :'http://creativeoverflow.net/wp-content/uploads/2016/11/mountain-20.jpg'},
+            {vin: 'Slide_2', year: 2015, brand: 'BMW', color: 'White', image :'http://creativeoverflow.net/wp-content/uploads/2016/11/mountain-21.jpg'},
+            {vin: 'Slide_3', year: 2012, brand: 'Honda', color: 'Blue', image :'http://creativeoverflow.net/wp-content/uploads/2016/11/mountain-22.jpg'},
+            {vin: 'Slide_4', year: 1998, brand: 'Renault', color: 'White', image :'http://creativeoverflow.net/wp-content/uploads/2016/11/mountain-23.jpg'}
+        ];
+    }
+*/

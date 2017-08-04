@@ -7,13 +7,11 @@ Basic Carousel layout
 */
 
 .carousel-main {
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    bottom: 20%;
-    right: 20%;
+    position: relative;
     overflow: hidden;
-    background-color: red;
+    background-color: #CCC;
+    height: 500px;
+    width: 500px;
 }
 /*.carousel-main.preventDoubleTap {
     pointer-events:none;
