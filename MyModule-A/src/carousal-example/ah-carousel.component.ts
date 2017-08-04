@@ -1,7 +1,13 @@
+// DEMO & Example : http://www.cssscript.com/responsive-carousel-slider-in-vanilla-javascript/
+
+/**
+ * Features:
+ *========================
+ * infinite scroll
+ * navigation breadcrumbs
+ * swipe detection
+ */
 import { Component, OnInit, AfterViewInit, AfterViewChecked, ElementRef, Renderer2, ChangeDetectorRef, Input } from '@angular/core';
-//import { DomHandler } from '../../../../node_modules/primeng/components/dom/domhandler';
-//import { SharedModule, PrimeTemplate } from '../../../../node_modules/primeng/components/common/shared';
-//import { Carousel } from '../../../../node_modules/primeng/components/carousel/carousel';
 
 @Component({
   selector: 'ah-carousel',
@@ -205,7 +211,7 @@ export class AhCarouselComponent implements OnInit, AfterViewInit {
   // Go directly to slide param:'jumpTo'. Animating in correct direction.
   _slideJump(jumpTo) {
     jumpTo = parseInt(jumpTo);
-    if (jumpTo == carousel1.slide_index || jumpTo > this.slide_length || jumpTo < 0) {
+    if (jumpTo == this.slide_index || jumpTo > this.slide_length || jumpTo < 0) {
       console.error("invalid slide index. wtf m8?");
       return false;
     } else if (jumpTo > this.slide_index) {
@@ -296,21 +302,3 @@ export class AhCarouselComponent implements OnInit, AfterViewInit {
   }
 
 }
-
-/* 
-	<ah-carousel [value]="cars">
-  </ah-carousel>
-	
-	cars;
-    msgs;
-
-    constructor() {
-        this.msgs = [];
-        this.cars = [
-            {vin: 'Slide_1', year: 2010, brand: 'Audi', color: 'Black', image :'http://creativeoverflow.net/wp-content/uploads/2016/11/mountain-20.jpg'},
-            {vin: 'Slide_2', year: 2015, brand: 'BMW', color: 'White', image :'http://creativeoverflow.net/wp-content/uploads/2016/11/mountain-21.jpg'},
-            {vin: 'Slide_3', year: 2012, brand: 'Honda', color: 'Blue', image :'http://creativeoverflow.net/wp-content/uploads/2016/11/mountain-22.jpg'},
-            {vin: 'Slide_4', year: 1998, brand: 'Renault', color: 'White', image :'http://creativeoverflow.net/wp-content/uploads/2016/11/mountain-23.jpg'}
-        ];
-    }
-*/

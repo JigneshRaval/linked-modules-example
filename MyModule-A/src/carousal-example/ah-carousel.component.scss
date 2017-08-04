@@ -5,7 +5,10 @@
 Basic Carousel layout
 
 */
-
+.play-pause {
+	position:absolute;
+	top: 150px;
+	}
 .carousel-main {
     position: relative;
     overflow: hidden;
