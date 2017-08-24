@@ -1,11 +1,49 @@
+<!-- START : al-Carousel -->
+<div class="carousel__container {{carouselBrandClass}}" data-slide-index="0" aria-live="polite" id="{{_uuid}}">
+
+  <!-- START :: Carousel slides container -->
+  <div class="carousel__slides" [ngStyle]="{'height': _carouselHeight +'px'}">
+
+    <!-- START :: Carousel slide -->
+    <figure *ngFor="let slide of carouselDataItems; let i = index" class="carousel__slide" attr.data-slide-index="{{i}}" aria-hidden="true"
+      role="tabpanel" id="{{_uuid}}_tabpanel_0_{{i}}" attr.aria-describedby="{{_uuid}}_tab_0_{{i}}">
+      <a class="carousel__link" href="{{slide.slideURL}}">
+        <div class="carousel__image">
+          <img src="{{slide.slideImage}}" alt="{{slide.slideImageAltText}}" />
+        </div>
+        <figcaption class="carousel__slide__content" *ngIf="slide.slideCaption">{{slide.slideCaption}}</figcaption>
+      </a>
+    </figure>
+    <!-- END :: Carousel slide -->
+
+  </div>
+  <!-- END :: Carousel slides container -->
+
+  <!-- START :: Carousel controls like Play, Pause, Dots etc... -->
+  <div class="carousel__controls" aria-label="carousel controls" aria-hidden="false" *ngIf="carouselDataItems?.length > 1">
+    <!-- Next/Previous Controls -->
+    <button type="button" *ngIf="hasArrows" class="carousel-btn carousel-btn__previous" aria-label="Previous slide" data-dir="_L"
+      (click)="slideLeft($event)" value="Previous slide"><i class="al-icon-arrow-back"></i></button>
+
+    <!-- Play/Pause Controls -->
+    <button type="button" *ngIf="!isPlaying" class="carousel-btn carousel-btn__play" aria-label="Play" data-dir="_R" (click)="playSlideShow($event)"
+      value="Play"><i class="al-icon-play"></i></button>
+    <button type="button" *ngIf="isPlaying" class="carousel-btn carousel-btn__pause" aria-label="Pause" (click)="pauseSlideShow($event)"
+      value="Pause"><i class="al-icon-pause"></i></button>
 
 
-<!--
-<p-carousel headerText="Cars" [value]="_value" [numVisible]="1" [pageLinks]="pageLinks">
+    <!-- Dots navigation -->
+    <ul class="carousel__dots" role="tablist" (click)="goToSlide($event)" (keydown)="onKeyDownGoToSlide($event)">
+      <li *ngFor="let slide of carouselDataItems; let i = index" role="presentation">
+        <button type="button" class="carousel__dot" attr.data-slide-index="{{i}}" role="tab" aria-selected="false" attr.aria-controls="{{_uuid}}_tabpanel_0_{{i}}"><span class="visuallyhidden" id="{{_uuid}}_tab_0_{{i}}">Slide {{i + 1}}</span></button>
+      </li>
+    </ul>
 
-  <ng-template let-car pTemplate="item">
-    dfaffasfsf
-    <div>{{car.vin}} = {{car.year}} = {{car.color}}</div>
-  </ng-template>
-</p-carousel>
--->
+    <!-- Next/Previous Controls -->
+    <button type="button" *ngIf="hasArrows" class="carousel-btn carousel-btn__next" aria-label="Next slide" data-dir="_R" (click)="slideRight($event)"
+      value="Next slide"><i class="al-icon-arrow-forward"></i></button>
+  </div>
+  <!-- END :: Carousel controls like Play, Pause, Dots etc... -->
+
+</div>
+<!-- END : al-Carousel -->
