@@ -4,7 +4,7 @@ import { DialogComponent } from './dynamic-dialog-component/dialog.component';
 import { DialogAnchorDirective } from './dynamic-dialog-component/dialog-anchor.directive';
 
 // Example of linked "ng-logger" example
-import { Logger } from '@nsalaun/ng-logger';
+//import { Logger } from '@nsalaun/ng-logger';
 
 // Example of Linked Component using `npm link MyModule-A`
 import { MyComponent } from 'MyModule-A';
@@ -86,6 +86,12 @@ import { DynamicComponent3Service, DynamicComponent3 } from 'MyModule-A';
 				<component-communication-main></component-communication-main>
 			</div>
 
+			<div class="example-section">
+				<ah-carousel [value]="carouselItems">
+					
+				</ah-carousel>
+			</div>
+
 		</div>
     `,
 	styleUrls: [],
@@ -95,11 +101,18 @@ import { DynamicComponent3Service, DynamicComponent3 } from 'MyModule-A';
 export class AppComponent {
 	bgColor: string = 'blue';
 	textColor: string = 'white';
+	carouselItems: any[];
 
-	constructor(private bootstrapGrowlService: BootstrapGrowlService, private logger: Logger, private dynamicComponent3Service: DynamicComponent3Service) {
 
-		this.logger.log('Hello !', "It's working :)");
+	constructor(private bootstrapGrowlService: BootstrapGrowlService, private dynamicComponent3Service: DynamicComponent3Service) {
 
+		//this.logger.log('Hello !', "It's working :)");
+		this.carouselItems = [
+			{ vin: "Slide 1", image: "http://creativeoverflow.net/wp-content/uploads/2016/11/mountain-2.jpg" },
+			{ vin: "Slide 2", image: "http://creativeoverflow.net/wp-content/uploads/2016/11/mountain-3.jpg" },
+			{ vin: "Slide 3", image: "http://creativeoverflow.net/wp-content/uploads/2016/11/mountain-4.jpg" },
+			{ vin: "Slide 4", image: "http://creativeoverflow.net/wp-content/uploads/2016/11/mountain-5.jpg" }
+		]
 	}
 
 	@ViewChild(DialogAnchorDirective) dialogAnchor: DialogAnchorDirective;

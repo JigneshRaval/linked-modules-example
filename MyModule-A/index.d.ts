@@ -26,3 +26,4 @@ export { ComponentCommunicationMain } from './src/component-communication/main';
 export { ComponentCommunicationSharedService } from './src/component-communication/shared.service';
 export { Sibling1Component } from './src/component-communication/sibling1.component';
 export { Sibling2Component } from './src/component-communication/sibling2.component';
+export { AhCarouselComponent } from './src/carousal-example/ah-carousel.component';
