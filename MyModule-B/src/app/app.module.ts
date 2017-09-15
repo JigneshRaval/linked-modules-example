@@ -37,7 +37,7 @@ import { BootstrapGrowlModule } from "MyModule-A";
 
 import { SwappingModuleDemo } from 'MyModule-A';
 
-import { NgLoggerModule, Level } from '@nsalaun/ng-logger';
+//import { NgLoggerModule, Level } from '@nsalaun/ng-logger';
 
 
 // Directive Examples
@@ -59,6 +59,8 @@ import { DynamicComp4Main, DynamicComp4Alert } from 'MyModule-A';
 
 import { ComponentCommunicationMain, Sibling1Component, Sibling2Component } from 'MyModule-A';
 
+import {AhCarouselComponent}  from 'MyModule-A';
+
 @NgModule({
     imports: [
         // Imports Metadata tells the angular list of other modules used by this module.
@@ -66,7 +68,7 @@ import { ComponentCommunicationMain, Sibling1Component, Sibling2Component } from
         BootstrapGrowlModule,
         MyMainModule,
         SwappingModuleDemo,
-        NgLoggerModule.forRoot(Level.LOG)
+        //NgLoggerModule.forRoot(Level.LOG)
     ],
     declarations: [
         // Declaration Metadata lists the components, directives , services etc that are part of this module.
@@ -80,7 +82,8 @@ import { ComponentCommunicationMain, Sibling1Component, Sibling2Component } from
         CounterParentComponent, CounterChildComponent, GrandChildComponent,
         DynamicComponent3,
         DynamicComp4Main, DynamicComp4Alert,
-        ComponentCommunicationMain, Sibling1Component, Sibling2Component
+        ComponentCommunicationMain, Sibling1Component, Sibling2Component,
+        AhCarouselComponent
     ],
     providers: [
         DynamicComp2Service,
