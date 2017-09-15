@@ -10,7 +10,10 @@ export class DialogAnchorDirective {
     constructor(
         private viewContainer: ViewContainerRef,
         private componentFactoryResolver: ComponentFactoryResolver
-    ) { }
+    ) {
+        console.log("viewContainer :", viewContainer);
+        console.log("componentFactoryResolver :", componentFactoryResolver);
+     }
 
     createDialog(dialogComponent: { new (): DialogComponent }): ComponentRef<DialogComponent> {
         this.viewContainer.clear();

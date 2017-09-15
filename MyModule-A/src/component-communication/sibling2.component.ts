@@ -51,6 +51,8 @@ export class Sibling2Component implements OnChanges, OnInit {
         // function which will run on input value change
         this._sharedService.publishData(event.target.value);
     }
+    ngOnChanges() {
+    }
 
     /*
     // Implemetation on Form submit ( requires @angular/forms )

@@ -1,3 +1,6 @@
+// DEMO : https://plnkr.co/edit/VSctCwNMctHIp4WuHLBy?p=preview
+// https://netbasal.com/dynamically-creating-components-with-angular-a7346f4a982d
+
 import { Component, Input, EventEmitter, Output } from '@angular/core';
 
 @Component({
