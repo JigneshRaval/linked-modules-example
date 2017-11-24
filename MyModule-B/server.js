@@ -37,6 +37,15 @@ http.createServer(function (request, response) {
         case '.wav':
             contentType = 'audio/wav';
             break;
+		case '.ttf':
+            contentType = 'application/x-font-ttf';
+            break;
+		case '.woff':
+            contentType = 'application/font-woff';
+            break;
+		case '.woff2':
+            contentType = 'application/font-woff2';
+            break;
     }
     
     console.log(" Type : ", contentType);
